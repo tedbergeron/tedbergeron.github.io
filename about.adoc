@@ -1,0 +1,15 @@
+---
+layout: page
+title: "About"
+description: ""
+---
+{% include JB/setup %}
+
+== This is the about page.
+
+I've create an AsciiDoc page here to test.
+
+It uses the command
+ $ rake page name="about.adoc"
+
+TIP: Let's see if this works
