@@ -1,0 +1,7 @@
+This corresponds to: https://github.com/tedbergeron/
+
+Master branch content is displayed here: http://tedbergeron.github.io/
+
+Unless you are using vanilla Jekyll; you would .gitignore _site because GitHub will auto generate Jekyll for you
+
+see GitHub Help: https://help.github.com/categories/github-pages-basics/
