@@ -4,11 +4,44 @@
     <title>ted.bergeron</title>
     <description>A Jekyll theme - Medium inspired
 </description>
-    <link>http://myblog.***.***/</link>
-    <atom:link href="http://myblog.***.***/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 20 Jan 2015 13:08:39 -0800</pubDate>
-    <lastBuildDate>Tue, 20 Jan 2015 13:08:39 -0800</lastBuildDate>
+    <link>http://tedbergeron.github.io/</link>
+    <atom:link href="http://tedbergeron.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Wed, 21 Jan 2015 13:16:11 -0800</pubDate>
+    <lastBuildDate>Wed, 21 Jan 2015 13:16:11 -0800</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Successfully Integrating Asciidoctor</title>
+        <description>&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;I followed this tutorial here: &lt;a href=&quot;http://eshepelyuk.github.io/2014/11/06/advanced-jekyll-and-asciidoctor.html&quot; class=&quot;bare&quot;&gt;http://eshepelyuk.github.io/2014/11/06/advanced-jekyll-and-asciidoctor.html&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;I was able to get Jekyll to render Asciidoc.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;admonitionblock note&quot;&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;td class=&quot;icon&quot;&gt;
+&lt;div class=&quot;title&quot;&gt;Note&lt;/div&gt;
+&lt;/td&gt;
+&lt;td class=&quot;content&quot;&gt;
+This is a note.
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;</description>
+        <pubDate>Wed, 21 Jan 2015 00:00:00 -0800</pubDate>
+        <link>http://tedbergeron.github.io/2015/01/21/integrating-asciidoc.html</link>
+        <guid isPermaLink="true">http://tedbergeron.github.io/2015/01/21/integrating-asciidoc.html</guid>
+        
+        <category>featured</category>
+        
+        <category>AsciiDoc</category>
+        
+        <category>Asciidoctor</category>
+        
+        
+      </item>
     
       <item>
         <title>Mediator Features</title>
@@ -63,8 +96,8 @@
 &lt;/blockquote&gt;
 </description>
         <pubDate>Sun, 30 Nov 2014 06:34:25 -0800</pubDate>
-        <link>http://myblog.***.***/mediator/feature/2014/11/30/mediator_features.html</link>
-        <guid isPermaLink="true">http://myblog.***.***/mediator/feature/2014/11/30/mediator_features.html</guid>
+        <link>http://tedbergeron.github.io/mediator/feature/2014/11/30/mediator_features.html</link>
+        <guid isPermaLink="true">http://tedbergeron.github.io/mediator/feature/2014/11/30/mediator_features.html</guid>
         
         <category>featured</category>
         
@@ -84,8 +117,8 @@
 &lt;p&gt;The pages are all in Markdown. I wish it used AsciiDoc instead.&lt;/p&gt;
 </description>
         <pubDate>Thu, 16 Oct 2014 00:00:00 -0700</pubDate>
-        <link>http://myblog.***.***/2014/10/16/my-second-post.html</link>
-        <guid isPermaLink="true">http://myblog.***.***/2014/10/16/my-second-post.html</guid>
+        <link>http://tedbergeron.github.io/2014/10/16/my-second-post.html</link>
+        <guid isPermaLink="true">http://tedbergeron.github.io/2014/10/16/my-second-post.html</guid>
         
         
       </item>
@@ -115,8 +148,8 @@ print_hi('Tom')
 &amp;lt;/footer&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 </description>
         <pubDate>Fri, 29 Aug 2014 07:34:25 -0700</pubDate>
-        <link>http://myblog.***.***/jekyll/update/2014/08/29/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://myblog.***.***/jekyll/update/2014/08/29/welcome-to-jekyll.html</guid>
+        <link>http://tedbergeron.github.io/jekyll/update/2014/08/29/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://tedbergeron.github.io/jekyll/update/2014/08/29/welcome-to-jekyll.html</guid>
         
         <category>featured</category>
         
@@ -161,8 +194,8 @@ cornelius_fiddlebone:
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;author: billy_rick&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 </description>
         <pubDate>Thu, 31 Jul 2014 00:00:00 -0700</pubDate>
-        <link>http://myblog.***.***/2014/07/31/author-override.html</link>
-        <guid isPermaLink="true">http://myblog.***.***/2014/07/31/author-override.html</guid>
+        <link>http://tedbergeron.github.io/2014/07/31/author-override.html</link>
+        <guid isPermaLink="true">http://tedbergeron.github.io/2014/07/31/author-override.html</guid>
         
         
       </item>
@@ -181,8 +214,8 @@ cornelius_fiddlebone:
 &lt;div xmlns:cc=&quot;http://creativecommons.org/ns#&quot; xmlns:dct=&quot;http://purl.org/dc/terms/&quot; about=&quot;http://subtlepatterns.com&quot; class=&quot;notice&quot;&gt;Background images from &lt;span property=&quot;dct:title&quot;&gt;Subtle Patterns&lt;/span&gt; (&lt;a rel=&quot;cc:attributionURL&quot; property=&quot;cc:attributionName&quot; href=&quot;http://subtlepatterns.com&quot;&gt;Subtle Patterns&lt;/a&gt;) / &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-sa/3.0/&quot;&gt;CC BY-SA 3.0&lt;/a&gt;&lt;/div&gt;
 </description>
         <pubDate>Sat, 26 Oct 2013 00:00:00 -0700</pubDate>
-        <link>http://myblog.***.***/2013/10/26/background-image.html</link>
-        <guid isPermaLink="true">http://myblog.***.***/2013/10/26/background-image.html</guid>
+        <link>http://tedbergeron.github.io/2013/10/26/background-image.html</link>
+        <guid isPermaLink="true">http://tedbergeron.github.io/2013/10/26/background-image.html</guid>
         
         <category>sample post</category>
         
@@ -281,8 +314,8 @@ end
 &lt;script src=&quot;https://gist.github.com/mmistakes/6589546.js&quot;&gt; &lt;/script&gt;
 </description>
         <pubDate>Fri, 16 Aug 2013 00:00:00 -0700</pubDate>
-        <link>http://myblog.***.***/2013/08/16/code-highlighting-post.html</link>
-        <guid isPermaLink="true">http://myblog.***.***/2013/08/16/code-highlighting-post.html</guid>
+        <link>http://tedbergeron.github.io/2013/08/16/code-highlighting-post.html</link>
+        <guid isPermaLink="true">http://tedbergeron.github.io/2013/08/16/code-highlighting-post.html</guid>
         
         <category>sample post</category>
         
@@ -304,8 +337,8 @@ end
 &lt;p&gt;Some &lt;a href=&quot;http://www.mademistakes.com&quot;&gt;link&lt;/a&gt; can also be shown.&lt;/p&gt;
 </description>
         <pubDate>Mon, 12 Aug 2013 00:00:00 -0700</pubDate>
-        <link>http://myblog.***.***/2013/08/12/sample-link-post.html</link>
-        <guid isPermaLink="true">http://myblog.***.***/2013/08/12/sample-link-post.html</guid>
+        <link>http://tedbergeron.github.io/2013/08/12/sample-link-post.html</link>
+        <guid isPermaLink="true">http://tedbergeron.github.io/2013/08/12/sample-link-post.html</guid>
         
         <category>sample post</category>
         
@@ -325,8 +358,8 @@ end
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&amp;lt;iframe width=&amp;quot;560&amp;quot; height=&amp;quot;315&amp;quot; src=&amp;quot;//www.youtube.com/embed/SU3kYxJmWuQ&amp;quot; frameborder=&amp;quot;0&amp;quot;&amp;gt; &amp;lt;/iframe&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 </description>
         <pubDate>Tue, 25 Jun 2013 00:00:00 -0700</pubDate>
-        <link>http://myblog.***.***/2013/06/25/video-post.html</link>
-        <guid isPermaLink="true">http://myblog.***.***/2013/06/25/video-post.html</guid>
+        <link>http://tedbergeron.github.io/2013/06/25/video-post.html</link>
+        <guid isPermaLink="true">http://tedbergeron.github.io/2013/06/25/video-post.html</guid>
         
         <category>sample post</category>
         
@@ -381,78 +414,12 @@ end
 &lt;p&gt;[^1]: Texture image courtesty of &lt;a href=&quot;http://www.lovetextures.com/&quot;&gt;Lovetextures&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 23 May 2013 00:00:00 -0700</pubDate>
-        <link>http://myblog.***.***/2013/05/23/readability-feature-post.html</link>
-        <guid isPermaLink="true">http://myblog.***.***/2013/05/23/readability-feature-post.html</guid>
+        <link>http://tedbergeron.github.io/2013/05/23/readability-feature-post.html</link>
+        <guid isPermaLink="true">http://tedbergeron.github.io/2013/05/23/readability-feature-post.html</guid>
         
         <category>sample post</category>
         
         <category>readability</category>
-        
-        <category>test</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>A Post with Images</title>
-        <description>&lt;p&gt;Here are some examples of what a post with images might look like. If you want to display two or three images next to each other responsively use &lt;code&gt;figure&lt;/code&gt; with the appropriate &lt;code&gt;class&lt;/code&gt;. Each instance of &lt;code&gt;figure&lt;/code&gt; is auto-numbered and displayed in the caption.&lt;/p&gt;
-
-&lt;h3&gt;Figures (for images or video)&lt;/h3&gt;
-
-&lt;h4&gt;One Up&lt;/h4&gt;
-
-&lt;figure&gt;
-    &lt;a href=&quot;http://farm9.staticflickr.com/8426/7758832526_cc8f681e48_b.jpg&quot;&gt;&lt;img src=&quot;http://farm9.staticflickr.com/8426/7758832526_cc8f681e48_c.jpg&quot;&gt;&lt;/a&gt;
-    &lt;figcaption&gt;&lt;a href=&quot;http://www.flickr.com/photos/80901381@N04/7758832526/&quot; title=&quot;Morning Fog Emerging From Trees by A Guy Taking Pictures, on Flickr&quot;&gt;Morning Fog Emerging From Trees by A Guy Taking Pictures, on Flickr&lt;/a&gt;.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Vero laborum commodo occupy. Semiotics voluptate mumblecore pug. Cosby sweater ullamco quinoa ennui assumenda, sapiente occupy delectus lo-fi. Ea fashion axe Marfa cillum aliquip. Retro Bushwick keytar cliche. Before they sold out sustainable gastropub Marfa readymade, ethical Williamsburg skateboard brunch qui consectetur gentrify semiotics. Mustache cillum irony, fingerstache magna pour-over keffiyeh tousled selfies.&lt;/p&gt;
-
-&lt;h4&gt;Two Up&lt;/h4&gt;
-
-&lt;p&gt;Apply the &lt;code&gt;half&lt;/code&gt; class like so to display two images side by side that share the same caption.&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&amp;lt;figure class=&amp;quot;half&amp;quot;&amp;gt;
-    &amp;lt;a href=&amp;quot;/images/image-filename-1-large.jpg&amp;quot;&amp;gt;&amp;lt;img src=&amp;quot;/images/image-filename-1.jpg&amp;quot;&amp;gt;&amp;lt;/a&amp;gt;
-    &amp;lt;a href=&amp;quot;/images/image-filename-2-large.jpg&amp;quot;&amp;gt;&amp;lt;img src=&amp;quot;/images/image-filename-2.jpg&amp;quot;&amp;gt;&amp;lt;/a&amp;gt;
-    &amp;lt;figcaption&amp;gt;Caption describing these two images.&amp;lt;/figcaption&amp;gt;
-&amp;lt;/figure&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;And you&amp;#39;ll get something that looks like this:&lt;/p&gt;
-
-&lt;figure class=&quot;half&quot;&gt;
-    &lt;a href=&quot;http://placehold.it/1200x600.JPG&quot;&gt;&lt;img src=&quot;http://placehold.it/600x300.jpg&quot;&gt;&lt;/a&gt;
-    &lt;a href=&quot;http://placehold.it/1200x600.jpeg&quot;&gt;&lt;img src=&quot;http://placehold.it/600x300.jpg&quot;&gt;&lt;/a&gt;
-    &lt;figcaption&gt;Two images.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h4&gt;Three Up&lt;/h4&gt;
-
-&lt;p&gt;Apply the &lt;code&gt;third&lt;/code&gt; class like so to display three images side by side that share the same caption.&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&amp;lt;figure class=&amp;quot;third&amp;quot;&amp;gt;
-    &amp;lt;img src=&amp;quot;/images/image-filename-1.jpg&amp;quot;&amp;gt;
-    &amp;lt;img src=&amp;quot;/images/image-filename-2.jpg&amp;quot;&amp;gt;
-    &amp;lt;img src=&amp;quot;/images/image-filename-3.jpg&amp;quot;&amp;gt;
-    &amp;lt;figcaption&amp;gt;Caption describing these three images.&amp;lt;/figcaption&amp;gt;
-&amp;lt;/figure&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;And you&amp;#39;ll get something that looks like this:&lt;/p&gt;
-
-&lt;figure class=&quot;third&quot;&gt;
-    &lt;img src=&quot;http://placehold.it/600x300.jpg&quot;&gt;
-    &lt;img src=&quot;http://placehold.it/600x300.jpg&quot;&gt;
-    &lt;img src=&quot;http://placehold.it/600x300.jpg&quot;&gt;
-    &lt;figcaption&gt;Three images.&lt;/figcaption&gt;
-&lt;/figure&gt;
-</description>
-        <pubDate>Wed, 22 May 2013 00:00:00 -0700</pubDate>
-        <link>http://myblog.***.***/2013/05/22/sample-post-images.html</link>
-        <guid isPermaLink="true">http://myblog.***.***/2013/05/22/sample-post-images.html</guid>
-        
-        <category>sample post</category>
-        
-        <category>images</category>
         
         <category>test</category>
         
