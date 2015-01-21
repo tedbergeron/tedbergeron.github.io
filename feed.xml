@@ -6,8 +6,8 @@
 </description>
     <link>http://tedbergeron.github.io/</link>
     <atom:link href="http://tedbergeron.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 21 Jan 2015 13:16:11 -0800</pubDate>
-    <lastBuildDate>Wed, 21 Jan 2015 13:16:11 -0800</lastBuildDate>
+    <pubDate>Wed, 21 Jan 2015 13:21:39 -0800</pubDate>
+    <lastBuildDate>Wed, 21 Jan 2015 13:21:39 -0800</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -18,17 +18,32 @@
 &lt;div class=&quot;paragraph&quot;&gt;
 &lt;p&gt;I was able to get Jekyll to render Asciidoc.&lt;/p&gt;
 &lt;/div&gt;
-&lt;div class=&quot;admonitionblock note&quot;&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;this-is-a-header&quot;&gt;This is a header&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;This is a sample page composed in AsciiDoc.&lt;br&gt;
+Jekyll converts it to HTML using &lt;a href=&quot;http://asciidoctor.org&quot;&gt;Asciidoctor&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;admonitionblock caution&quot;&gt;
 &lt;table&gt;
 &lt;tr&gt;
 &lt;td class=&quot;icon&quot;&gt;
-&lt;div class=&quot;title&quot;&gt;Note&lt;/div&gt;
+&lt;i class=&quot;fa icon-caution&quot; title=&quot;Caution&quot;&gt;&lt;/i&gt;
 &lt;/td&gt;
 &lt;td class=&quot;content&quot;&gt;
-This is a note.
+very important tip
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;/table&gt;
+&lt;/div&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;title&quot;&gt;sample.rb&lt;/div&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;CodeRay highlight&quot;&gt;&lt;code data-lang=&quot;ruby&quot;&gt;puts &lt;span style=&quot;background-color:hsla(0,100%,50%,0.05)&quot;&gt;&lt;span style=&quot;color:#710&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span style=&quot;color:#D20&quot;&gt;Hello, World!&lt;/span&gt;&lt;span style=&quot;color:#710&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 &lt;/div&gt;</description>
         <pubDate>Wed, 21 Jan 2015 00:00:00 -0800</pubDate>
         <link>http://tedbergeron.github.io/2015/01/21/integrating-asciidoc.html</link>
