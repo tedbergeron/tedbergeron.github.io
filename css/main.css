@@ -164,7 +164,7 @@ body {
   position: fixed;
   left: 10px;
   top: 10px;
-  width: 48px;
+  width: 27.7128px;
   height: 48px;
   background-color: #000;
   overflow: hidden;
@@ -172,12 +172,27 @@ body {
   .logo-readium .logo {
     display: block;
     position: absolute;
-    top: 8px;
-    left: 8px;
-    width: 32px;
+    width: 18.4752px;
     height: 32px;
     background-size: cover;
     background-repeat: no-repeat; }
+  .logo-readium .logo:before {
+    position: absolute;
+    top: 0;
+    right: calc(($rs / 2) - (($rs * 0.57735) / 2));
+    background-color: inherit;
+    height: inherit;
+    width: inherit;
+    transform: rotateZ(60deg); }
+  .logo-readium .logo:after {
+    position: absolute;
+    top: 0;
+    right: calc(($rs / 2) - (($rs * 0.57735) / 2));
+    background-color: inherit;
+    height: inherit;
+    width: inherit;
+    content: "";
+    transform: rotateZ(-60deg); }
 
 .teaserimage {
   height: 450px;
