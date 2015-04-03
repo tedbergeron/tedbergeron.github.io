@@ -6,8 +6,8 @@
 </description>
     <link>http://tedbergeron.github.io/</link>
     <atom:link href="http://tedbergeron.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 02 Apr 2015 21:38:46 -0700</pubDate>
-    <lastBuildDate>Thu, 02 Apr 2015 21:38:46 -0700</lastBuildDate>
+    <pubDate>Fri, 03 Apr 2015 12:12:11 -0700</pubDate>
+    <lastBuildDate>Fri, 03 Apr 2015 12:12:11 -0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -19,7 +19,7 @@
 &lt;p&gt;I&amp;#8217;ve used Markdown for years but last year I heard about AsciiDoc at &lt;a href=&quot;http://www.writethedocs.org/&quot;&gt;Write The Docs&lt;/a&gt; 2014 conference. Then I quickly discovered &lt;a href=&quot;http://asciidoctor.org/&quot;&gt;Asciidoctor&lt;/a&gt; and I&amp;#8217;ve never looked back.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;AsciiDoc is a superset of Markdown and since Asciidoctor renders Markdown too,  it was easy for me to just start using AsciiDoc.&lt;/p&gt;
+&lt;p&gt;AsciiDoc is like a superset of Markdown and since Asciidoctor renders Markdown too,  it was easy for me to just start using AsciiDoc.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -181,7 +181,7 @@ In my opinion the &lt;a href=&quot;https://atom.io/&quot;&gt;Atom Editor&lt;/a&g
 &lt;h2 id=&quot;other-editors&quot;&gt;Other Editors?&lt;/h2&gt;
 &lt;div class=&quot;sectionbody&quot;&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Of course there are other editors that handle AsciiDoc well. Brackets has a previewer. Vim, Sublime Text and NotePad++ have syntax highlighting. But I&amp;#8217;ll stick with Atom. It works on my Windows and Linux machines.&lt;/p&gt;
+&lt;p&gt;Of course there are other editors that handle AsciiDoc as well. Brackets has a previewer. Vim, Sublime Text and NotePad++ have syntax highlighting. But I&amp;#8217;ll stick with Atom. It works on my Windows and Linux machines.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;</description>
