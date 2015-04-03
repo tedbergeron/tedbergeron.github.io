@@ -7,7 +7,7 @@
   <!-- (1) force latest IE rendering engine: bit.ly/1c8EiC9 -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <title>Author Override</title>
+  <title>BeeBot.com</title>
   <meta name="description" content="Droning on down at the hive.
 " />
 
@@ -16,7 +16,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
-  <link rel="canonical" href="http://localhost:4000/2014/07/31/author-override.html">
+  <link rel="canonical" href="http://localhost:4000/pagetwo.html">
 
   <link rel="shortcut icon" href="/assets/images/favicon.ico">
 <!--  <link rel="stylesheet" href=""> -->
@@ -63,13 +63,10 @@
         
         <div class="noarticleimage">
           <div class="post-meta">
-            <h1 class="post-title">Author Override</h1>
+            <h1 class="post-title"></h1>
             <div class="cf post-meta-text">
-              <div class="author-image" style="background-image: url(/assets/images/author.jpg)">Blog Logo</div>
-              <h4 class="author-name" itemprop="author" itemscope itemtype="http://schema.org/Person">billy_rick</h4>
-              on
-              <time datetime="2014-07-31T00:00:00-07:00">31 Jul 2014</time>
-              <!-- , tagged on <span class="post-tag-">, <a href="/tag/"></a></span> -->
+              <div class="author-image" style="background-image: url()">Blog Logo</div>
+              <h4 class="author-name" itemprop="author" itemscope itemtype="http://schema.org/Person"></h4>
             </div>
           </div>
         </div>
@@ -78,79 +75,21 @@
         <br>
         
         <section class="post-content">
-          <div class="post-reading">
-            <span class="post-reading-time"></span> read
-          </div>
           <a name="topofpage"></a>
-          <p>For those of you who may have content written by multiple authors on your site you can now assign different authors to each post if desired.</p>
+          <p>:layout: page</p>
 
-<p>Previously the theme used a global author for the entire site and those attributes would be used in all bylines, social networking links, Twitter Card attribution, and Google Authorship. These <code>owner</code> variables were defined in <code>config.yml</code></p>
+<h1>Page Two</h1>
 
-<p>Start by modifying or creating a new <code>authors.yml</code> file in the <code>_data</code> folder and add your authors using the following format.</p>
+<p>The source of this page is Markdown.</p>
 
-<div class="highlight"><pre><code class="language-yaml" data-lang="yaml"># Authors
-
-billy_rick:
-  name: Billy Rick
-  web: http://thewhip.com
-  email: billy@rick.com
-  bio: &quot;What do you want, jewels? I am a very extravagant man.&quot;
-  avatar: bio-photo-2.jpg
-  twitter: extravagantman
-  google:
-    plus: BillyRick
-
-cornelius_fiddlebone:
-  name: Cornelius Fiddlebone
-  email: cornelius@thewhip.com
-  bio: &quot;I ordered what?&quot;
-  avatar: bio-photo.jpg
-  twitter: rhymeswithsackit
-  google:
-    plus: CorneliusFiddlebone</code></pre></div>
-
-<p>To assign Billy Rick as an author for our post. You&#39;d add the following YAML front matter to a post:</p>
-
-<div class="highlight"><pre><code class="language-yaml" data-lang="yaml">author: billy_rick</code></pre></div>
+<ul>
+<li>bullet</li>
+<li>bullet</li>
+<li>bullet</li>
+<li>bullet</li>
+</ul>
 
         </section>
-        <footer class="post-footer">
-          <section class="share">
-            
-              
-                <a class="icon-twitter" href="http://twitter.com/share?text=Author+Override&amp;url=http://localhost:4000/2014/07/31/author-override"
-                  onclick="window.open(this.href, 'twitter-share', 'width=550,height=255');return false;">
-                <i class="fa fa-twitter"></i><span class="hidden">twitter</span>
-                </a>
-              
-            
-              
-            
-          </section>
-        </footer>
-        <div class="bottom-teaser cf">
-          <div class="isLeft">
-            <h5 class="index-headline featured"><span>Written by</span></h5>
-            <section class="author">
-              <div class="author-image" style="background-image: url(/assets/images/author.jpg)">Blog Logo</div>
-              <h4>Ted Bergeron</h4>
-              <p class="bio"></p>
-              <hr>
-              <p class="published">Published <time datetime="2014-07-31 00:00">31 Jul 2014</time></p>
-            </section>
-          </div>
-          
-          <div class="isRight">
-            <h5 class="index-headline featured"><span>Supported by</span></h5>
-            <footer class="site-footer">
-              <section class="poweredby">Proudly published with <a href="http://jekyllrb.com"> Jekyll</a></section>
-              <a class="subscribe" href="/feed.xml"> <span class="tooltip"> <i class="fa fa-rss"></i> You should subscribe to my feed.</span></a>
-              <div class="inner">
-                <section class="copyright">All content copyright <a href="/">Ted Bergeron</a> &copy; 2015<br>All rights reserved.</section>
-              </div>
-            </footer>
-          </div>
-        </div>
       </article>
     </main>
     <div class="bottom-closer">

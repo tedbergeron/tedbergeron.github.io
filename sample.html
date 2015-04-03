@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
   <head>
   <meta charset="utf-8">
   <!-- (1) Optimize for mobile versions: http://goo.gl/EOpFl -->
@@ -9,7 +8,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
   <title>Sample Page</title>
-  <meta name="description" content="A Jekyll theme - Medium inspired
+  <meta name="description" content="Droning on down at the hive.
 " />
 
   <meta name="HandheldFriendly" content="True" />
@@ -17,7 +16,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
-  <link rel="canonical" href="http://tedbergeron.github.io/sample.html">
+  <link rel="canonical" href="http://localhost:4000/sample.html">
 
   <link rel="shortcut icon" href="/assets/images/favicon.ico">
 <!--  <link rel="stylesheet" href=""> -->
@@ -29,23 +28,55 @@
 
   <link rel="stylesheet" href="/css/colony.css">
   <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/beebot.css">
 </head>
 
-
-  <body>
-
+  <body itemscope itemtype="http://schema.org/Article">
     <!-- header start -->
 
-<a href="http://tedbergeron.github.io" class="logo-readium"><span class="logo" style="background-image: url(/assets/images/tb_logo.jpg)"></span></a>
+<!-- top navbar -->
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="http://localhost:4000"><img src="/assets/images/button_beebot_comics.gif" title="BeeBot.com" /></a>
+    </div>
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="/index.html">Home</a></li>
+        <li><a href="/pagetwo.html">Page Two</a></li>
+        <li><a href="/test.html">Test Formatting</a></li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.nav -->
+</div>
 
 <!-- header end -->
 
-
-    <!-- content start -->
-
-    <div class="page-content">
-      <div class="wrapper">
-        <h1>Sample Page</h1>
+    <main class="content" role="main">
+      <article class="post">
+        
+        <div class="noarticleimage">
+          <div class="post-meta">
+            <h1 class="post-title">Sample Page</h1>
+            <div class="cf post-meta-text">
+              <div class="author-image" style="background-image: url()">Blog Logo</div>
+              <h4 class="author-name" itemprop="author" itemscope itemtype="http://schema.org/Person"></h4>
+            </div>
+          </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        
+        <section class="post-content">
+          <a name="topofpage"></a>
+          <h1>Sample Page</h1>
 <div class="sect1">
 <h2 id="this-is-a-header">This is a header</h2>
 <div class="sectionbody">
@@ -73,23 +104,20 @@ very important tip
 </div>
 </div>
 </div>
+        </section>
+      </article>
+    </main>
+    <div class="bottom-closer">
+      <div class="background-closer-image" >
+        Image
+      </div>
+      <div class="inner">
+        <h1 class="blog-title">BeeBot.com</h1>
+        <h2 class="blog-description">Droning on down at the hive.
+</h2>
+        <a href="/" class="btn">Back to Overview</a>
       </div>
     </div>
-
-    <!-- content end -->
-
-    <!-- footer start -->
-
-<footer class="site-footer">
-  <a class="subscribe" href="/feed.xml"> <span class="tooltip"> <i class="fa fa-rss"></i> Subscribe!</span></a>
-    <div class="inner">
-         <section class="copyright">All content copyright <a href="mailto:a-mail@mail.mail">Ted Bergeron</a> &copy; 2015 &bull; All rights reserved.</section>
-         <section class="poweredby">Made with <a href="http://jekyllrb.com"> Jekyll</a></section>
-    </div>
-</footer>
-
-<!-- footer end -->
-
     <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
 <script type="text/javascript" src="/assets/js/jquery.fitvids.js"></script>
 <script type="text/javascript" src="/assets/js/index.js"></script>
@@ -130,7 +158,5 @@ very important tip
 </script>
 
 
-
   </body>
-
 </html>

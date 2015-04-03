@@ -1,14 +1,233 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ted.bergeron</title>
-    <description>A Jekyll theme - Medium inspired
+    <title>BeeBot.com</title>
+    <description>Droning on down at the hive.
 </description>
-    <link>http://tedbergeron.github.io/</link>
-    <atom:link href="http://tedbergeron.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 05 Feb 2015 19:25:44 -0800</pubDate>
-    <lastBuildDate>Thu, 05 Feb 2015 19:25:44 -0800</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Thu, 02 Apr 2015 20:29:53 -0700</pubDate>
+    <lastBuildDate>Thu, 02 Apr 2015 20:29:53 -0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Atom Editor for AsciiDoc</title>
+        <description>&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;why-asciidoc&quot;&gt;Why AsciiDoc?&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;I&amp;#8217;ve used Markdown for years but last year I heard about AsciiDoc at &lt;a href=&quot;http://www.writethedocs.org/&quot;&gt;Write The Docs&lt;/a&gt; 2014 conference. Then I quickly discovered &lt;a href=&quot;http://asciidoctor.org/&quot;&gt;Asciidoctor&lt;/a&gt; and I&amp;#8217;ve never looked back.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;AsciiDoc is a superset of Markdown and since Asciidoctor renders Markdown too,  it was easy for me to just start using AsciiDoc.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;fast-start-with-asciidoc&quot;&gt;Fast Start with AsciiDoc&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;I think the fastest way to get started is to install the &lt;a href=&quot;https://chrome.google.com/webstore/detail/asciidoctorjs-live-previe/iaalpfgpbocpdfblpnhhgllgbdbchmia?hl=en-US&quot;&gt;Asciidoctor.js Live Preview&lt;/a&gt; extension for Chrome.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Set the options for it&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Safe mode: unsafe &lt;em&gt;(because you&amp;#8217;ll want to do all the cool stuff with it)&lt;/em&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Preview .txt files: &lt;span class=&quot;icon black&quot;&gt;&lt;i class=&quot;fa fa-check&quot;&gt;&lt;/i&gt;&lt;/span&gt; &lt;em&gt;(so you can use .txt in addition to .adoc)&lt;/em&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Theme / Stylesheet: &lt;em&gt;(colony or maker are my favorites)&lt;/em&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Click save.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Open your favorite text editor and start writng. Format your doc with AsciiDoc. Here&amp;#8217;s some links to get you started with the syntax:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;span class=&quot;icon yellow&quot;&gt;&lt;i class=&quot;fa fa-star&quot;&gt;&lt;/i&gt;&lt;/span&gt; &lt;a href=&quot;http://powerman.name/doc/asciidoc&quot;&gt;AsciiDoc cheatsheet&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;span class=&quot;icon yellow&quot;&gt;&lt;i class=&quot;fa fa-star&quot;&gt;&lt;/i&gt;&lt;/span&gt; &lt;a href=&quot;http://asciidoctor.org/docs/asciidoc-syntax-quick-reference/&quot;&gt;Asciidoctor Syntax Quick Reference&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;span class=&quot;icon yellow&quot;&gt;&lt;i class=&quot;fa fa-star&quot;&gt;&lt;/i&gt;&lt;/span&gt; &lt;a href=&quot;http://asciidoctor.org/docs/user-manual/#doc-header&quot;&gt;Asciidoctor User Manual: syntax&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Open your text file in Chrome to start previewing it. &lt;strong&gt;Have your text editor open right next to Chrome&lt;/strong&gt; so you have a side-by-side editor|viewer. Each time you save you&amp;#8217;ll see your changes rendered in Chrome.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;admonitionblock tip&quot;&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;td class=&quot;icon&quot;&gt;
+&lt;i class=&quot;fa icon-tip&quot; title=&quot;Tip&quot;&gt;&lt;/i&gt;
+&lt;/td&gt;
+&lt;td class=&quot;content&quot;&gt;
+&lt;strong&gt;Pro Tip:&lt;/strong&gt; Bookmark your AsciiDoc text file. Then write links to all your other docs creating a simple wiki or intranet site on your computer; powered by this browser extension and a text editor.
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;a href=&quot;https://addons.mozilla.org/en-us/firefox/addon/asciidoctorjs-live-preview/?src=search&quot;&gt;Asciidoctor.js Live Preview&lt;/a&gt; is also available for Firefox but it is not as mature as the Chrome version as of the time of this writing. But I&amp;#8217;m sure it will catch up quickly.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;atom-editor-span-class-icon-i-class-fa-fa-github-alt-i-span&quot;&gt;Atom Editor &lt;span class=&quot;icon&quot;&gt;&lt;i class=&quot;fa fa-github-alt&quot;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;quoteblock&quot;&gt;
+&lt;blockquote&gt;
+In my opinion the &lt;a href=&quot;https://atom.io/&quot;&gt;Atom Editor&lt;/a&gt; is the best editor for working with AsciiDoc files. It&amp;#8217;s free and it works on Linux, Mac and Windows.
+&lt;/blockquote&gt;
+&lt;div class=&quot;attribution&quot;&gt;
+&amp;#8212; Ted Bergeron
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;You&amp;#8217;ll need these two packages for the &lt;a href=&quot;https://atom.io/&quot;&gt;Atom Editor&lt;/a&gt; to make working with AsciiDoc a dream. Go to File &amp;gt; Settings &amp;gt; Install. Search for 'AsciiDoc'. Both of these are by 'asciidoctor'&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;language-asciidoc&lt;/strong&gt; &lt;span class=&quot;icon green&quot;&gt;&lt;i class=&quot;fa fa-check&quot;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;asciidoc-preview&lt;/strong&gt; &lt;span class=&quot;icon green&quot;&gt;&lt;i class=&quot;fa fa-check&quot;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;language-asciidoc-for-syntax-highlighting&quot;&gt;language-asciidoc for syntax highlighting&lt;/h3&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;This package gives you beautiful syntax highlighting for AsciiDoc files. It automatically detects .adoc files. But I use .txt files. To get the syntax highlighting to lightup, click the Plain Text in the lower right-hand status bar and select AsciiDoc from the drop-down.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;admonitionblock tip&quot;&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;td class=&quot;icon&quot;&gt;
+&lt;i class=&quot;fa icon-tip&quot; title=&quot;Tip&quot;&gt;&lt;/i&gt;
+&lt;/td&gt;
+&lt;td class=&quot;content&quot;&gt;
+&lt;strong&gt;Using .txt&lt;/strong&gt; First your spell checker is going to work. Secondly I think it is an advantage to use .txt files in the repository so after I&amp;#8217;m long gone, anyone can still open the files and work with them; even if they&amp;#8217;ve never heard of AsciiDoc formatting. Although it would be a simple command to change file extentions from .adoc back to .txt.
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Experiment with different Atom themes to find syntax colors that work best for you.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;asciidoc-preview-for-live-previewing&quot;&gt;asciidoc-preview for live previewing&lt;/h3&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;The asciidoc-preview package gives you the perfect side-by-side editor|viewer for working with your text files.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;div class=&quot;title&quot;&gt;Toggle Preview (Ctrl+Shift+A)&lt;/div&gt;
+&lt;p&gt;To toggle the preview window use Packages &amp;gt; AsciiDoc &amp;gt; Toggle Preview (Ctrl+Shift+A)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;div class=&quot;title&quot;&gt;Toggle Soft Wrap&lt;/div&gt;
+&lt;p&gt;You might also want to use menu View &amp;gt; Toggle Soft Wrap so you can see all your text in the editor pane. You can toggle it on by default in File &amp;gt; Settings &amp;gt; Editor Settings &amp;gt; Soft Wrap.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;admonitionblock important&quot;&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;td class=&quot;icon&quot;&gt;
+&lt;i class=&quot;fa icon-important&quot; title=&quot;Important&quot;&gt;&lt;/i&gt;
+&lt;/td&gt;
+&lt;td class=&quot;content&quot;&gt;
+&lt;strong&gt;Windows Version:&lt;/strong&gt; If the AsciiDoc Toggle Preview (Ctrl+Shift+A) has stopped working in Windows version of Atom Editor. Find menu File &amp;gt; Open Your Keymap. It will likely be a empty file. Add this code and save it:
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;title&quot;&gt;keymap file&lt;/div&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;CodeRay highlight&quot;&gt;&lt;code data-lang=&quot;cson&quot;&gt;'atom-workspace, atom-workspace atom-text-editor':
+  'ctrl-shift-a': 'asciidoc-preview:toggle'
+  'ctrl-alt-a': 'asciidoc-preview:toggle-render-on-save-only'&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;line-ending-converter-for-windows&quot;&gt;line-ending-converter for Windows&lt;/h3&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;When you open text files that have been edited with Atom in Notepad you might find it only has line-feeds (&quot;\n&quot;) and no Windows carriage returns (&quot;\r\n&quot;). There is another package to convert line endings called &lt;strong&gt;line-ending-converter&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Use menu Packages &amp;gt; Convert Line Endings To &amp;gt; Windows Format&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;and save.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;other-editors&quot;&gt;Other Editors?&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Of course there are other editors that handle AsciiDoc well. Brackets has a previewer. Vim, Sublime Text and NotePad++ have syntax highlighting. But I&amp;#8217;ll stick with Atom. It works on my Windows and Linux machines.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+        <pubDate>Sun, 29 Mar 2015 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2015/03/29/Atom-Editor-AsciiDoc.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2015/03/29/Atom-Editor-AsciiDoc.html</guid>
+        
+        <category>featured</category>
+        
+        <category>AtomEditor</category>
+        
+        <category>AsciiDoc</category>
+        
+        <category>Asciidoctor</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>The future of apps</title>
+        <description>&lt;div class=&quot;quoteblock&quot;&gt;
+&lt;blockquote&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;To me the future is where you can develop web apps that access native features of the devices. You host it as a website because it &lt;strong&gt;is&lt;/strong&gt; your website that just happens to be responsive.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;The concept of getting &quot;apps&quot; from iTunes or Play Store becomes a thing of the past or morphs into a search engine of websites formerly called apps.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;I&amp;#8217;m so ready for the 21st century to get started.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/blockquote&gt;
+&lt;div class=&quot;attribution&quot;&gt;
+&amp;#8212; Ted Bergeron
+&lt;/div&gt;
+&lt;/div&gt;</description>
+        <pubDate>Thu, 05 Mar 2015 00:00:00 -0800</pubDate>
+        <link>http://localhost:4000/2015/03/05/future-of-apps.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2015/03/05/future-of-apps.html</guid>
+        
+        <category>web</category>
+        
+        <category>apps</category>
+        
+        
+      </item>
     
       <item>
         <title>Turn KDE Trackpad Off</title>
@@ -20,7 +239,7 @@
 &lt;p&gt;I was trying to adjust the brightness. DELL uses the Function (Fn) key + Up and Down Arrows.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;I was trying to turn the brightness down and I accidentally pressed: Fn + Right Arrow which apparently is a KDE keyboard-shortcut to turn off the touchpad permanently.&lt;/p&gt;
+&lt;p&gt;I was trying to turn the brightness down and I accidentally pressed: Fn + (auto brightness) Left Arrow which apparently is a KDE keyboard-shortcut to turn off the touchpad permanently.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
 &lt;p&gt;How handy&amp;#8230;&amp;#8203; Not! There is a popup message letting you know the touchpad has been turned off.&lt;/p&gt;
@@ -71,11 +290,11 @@ set-prop to whatever id number your touchpad is. I believe the 1 at the end mean
 &lt;/table&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;I don&amp;#8217;t know if there is a permanently way to restore the trackpad.&lt;/p&gt;
+&lt;p&gt;I don&amp;#8217;t know if there is a permanently way to restore the trackpad. I&amp;#8217;m sure there is a setting somewhere. Of course I could create a new user.&lt;/p&gt;
 &lt;/div&gt;</description>
         <pubDate>Thu, 05 Feb 2015 00:00:00 -0800</pubDate>
-        <link>http://tedbergeron.github.io/2015/02/05/Turn-KDE-Trackpad-Off.html</link>
-        <guid isPermaLink="true">http://tedbergeron.github.io/2015/02/05/Turn-KDE-Trackpad-Off.html</guid>
+        <link>http://localhost:4000/2015/02/05/Turn-KDE-Trackpad-Off.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2015/02/05/Turn-KDE-Trackpad-Off.html</guid>
         
         <category>Dell</category>
         
@@ -104,8 +323,8 @@ set-prop to whatever id number your touchpad is. I believe the 1 at the end mean
 &lt;p&gt;Find and change these two settings. One to use Numlock only. And another to turn Numlock off when booting.&lt;/p&gt;
 &lt;/div&gt;</description>
         <pubDate>Tue, 03 Feb 2015 00:00:00 -0800</pubDate>
-        <link>http://tedbergeron.github.io/2015/02/03/Numlock.html</link>
-        <guid isPermaLink="true">http://tedbergeron.github.io/2015/02/03/Numlock.html</guid>
+        <link>http://localhost:4000/2015/02/03/Numlock.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2015/02/03/Numlock.html</guid>
         
         <category>Dell</category>
         
@@ -184,8 +403,8 @@ very important tip
 &lt;/div&gt;
 &lt;/div&gt;</description>
         <pubDate>Thu, 29 Jan 2015 00:00:00 -0800</pubDate>
-        <link>http://tedbergeron.github.io/2015/01/29/linux.html</link>
-        <guid isPermaLink="true">http://tedbergeron.github.io/2015/01/29/linux.html</guid>
+        <link>http://localhost:4000/2015/01/29/linux.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2015/01/29/linux.html</guid>
         
         <category>Linux</category>
         
@@ -230,8 +449,8 @@ very important tip
 &lt;/div&gt;
 &lt;/div&gt;</description>
         <pubDate>Wed, 21 Jan 2015 00:00:00 -0800</pubDate>
-        <link>http://tedbergeron.github.io/2015/01/21/integrating-asciidoc.html</link>
-        <guid isPermaLink="true">http://tedbergeron.github.io/2015/01/21/integrating-asciidoc.html</guid>
+        <link>http://localhost:4000/2015/01/21/integrating-asciidoc.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2015/01/21/integrating-asciidoc.html</guid>
         
         <category>featured</category>
         
@@ -295,10 +514,10 @@ very important tip
 &lt;/blockquote&gt;
 </description>
         <pubDate>Sun, 30 Nov 2014 06:34:25 -0800</pubDate>
-        <link>http://tedbergeron.github.io/mediator/feature/2014/11/30/mediator_features.html</link>
-        <guid isPermaLink="true">http://tedbergeron.github.io/mediator/feature/2014/11/30/mediator_features.html</guid>
+        <link>http://localhost:4000/mediator/feature/2014/11/30/mediator_features.html</link>
+        <guid isPermaLink="true">http://localhost:4000/mediator/feature/2014/11/30/mediator_features.html</guid>
         
-        <category>featured</category>
+        <category>mediator</category>
         
         
         <category>mediator</category>
@@ -316,8 +535,8 @@ very important tip
 &lt;p&gt;The pages are all in Markdown. I wish it used AsciiDoc instead.&lt;/p&gt;
 </description>
         <pubDate>Thu, 16 Oct 2014 00:00:00 -0700</pubDate>
-        <link>http://tedbergeron.github.io/2014/10/16/my-second-post.html</link>
-        <guid isPermaLink="true">http://tedbergeron.github.io/2014/10/16/my-second-post.html</guid>
+        <link>http://localhost:4000/2014/10/16/my-second-post.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2014/10/16/my-second-post.html</guid>
         
         
       </item>
@@ -341,16 +560,16 @@ print_hi('Tom')
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&amp;lt;footer class=&amp;quot;site-footer&amp;quot;&amp;gt;
  &amp;lt;a class=&amp;quot;subscribe&amp;quot; href=&amp;quot;/feed.xml&amp;quot;&amp;gt; &amp;lt;span class=&amp;quot;tooltip&amp;quot;&amp;gt; &amp;lt;i class=&amp;quot;fa fa-rss&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; Subscribe!&amp;lt;/span&amp;gt;&amp;lt;/a&amp;gt;
   &amp;lt;div class=&amp;quot;inner&amp;quot;&amp;gt;a
-   &amp;lt;section class=&amp;quot;copyright&amp;quot;&amp;gt;All content copyright &amp;lt;a href=&amp;quot;mailto:a-mail@mail.mail&amp;quot;&amp;gt;Ted Bergeron&amp;lt;/a&amp;gt; &amp;amp;copy; 2015 &amp;amp;bull; All rights reserved.&amp;lt;/section&amp;gt;
+   &amp;lt;section class=&amp;quot;copyright&amp;quot;&amp;gt;All content copyright &amp;lt;a href=&amp;quot;mailto:info@beebot.com&amp;quot;&amp;gt;Ted Bergeron&amp;lt;/a&amp;gt; &amp;amp;copy; 2015 &amp;amp;bull; All rights reserved.&amp;lt;/section&amp;gt;
    &amp;lt;section class=&amp;quot;poweredby&amp;quot;&amp;gt;Made with &amp;lt;a href=&amp;quot;http://jekyllrb.com&amp;quot;&amp;gt; Jekyll&amp;lt;/a&amp;gt;&amp;lt;/section&amp;gt;
   &amp;lt;/div&amp;gt;
 &amp;lt;/footer&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 </description>
         <pubDate>Fri, 29 Aug 2014 07:34:25 -0700</pubDate>
-        <link>http://tedbergeron.github.io/jekyll/update/2014/08/29/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://tedbergeron.github.io/jekyll/update/2014/08/29/welcome-to-jekyll.html</guid>
+        <link>http://localhost:4000/jekyll/update/2014/08/29/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll/update/2014/08/29/welcome-to-jekyll.html</guid>
         
-        <category>featured</category>
+        <category>Jekyll</category>
         
         
         <category>jekyll</category>
@@ -393,134 +612,8 @@ cornelius_fiddlebone:
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;author: billy_rick&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 </description>
         <pubDate>Thu, 31 Jul 2014 00:00:00 -0700</pubDate>
-        <link>http://tedbergeron.github.io/2014/07/31/author-override.html</link>
-        <guid isPermaLink="true">http://tedbergeron.github.io/2014/07/31/author-override.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Post with a Background Image</title>
-        <description>&lt;p&gt;Here be a sample post with a custom background image. To utilize this &amp;quot;feature&amp;quot; just add the following YAML to a post&amp;#39;s front matter.&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;image:
-  background: filename.png&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;This little bit of YAML makes the assumption that your background image asset is in the &lt;code&gt;/images&lt;/code&gt; folder. If you place it somewhere else or are hotlinking from the web, just include the full http(s):// URL. Either way you should have a background image that is tiled.&lt;/p&gt;
-
-&lt;p&gt;If you want to set a background image for the entire site just add &lt;code&gt;background: filename.png&lt;/code&gt; to your &lt;code&gt;_config.yml&lt;/code&gt; and BOOM --- background images on every page!&lt;/p&gt;
-
-&lt;div xmlns:cc=&quot;http://creativecommons.org/ns#&quot; xmlns:dct=&quot;http://purl.org/dc/terms/&quot; about=&quot;http://subtlepatterns.com&quot; class=&quot;notice&quot;&gt;Background images from &lt;span property=&quot;dct:title&quot;&gt;Subtle Patterns&lt;/span&gt; (&lt;a rel=&quot;cc:attributionURL&quot; property=&quot;cc:attributionName&quot; href=&quot;http://subtlepatterns.com&quot;&gt;Subtle Patterns&lt;/a&gt;) / &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-sa/3.0/&quot;&gt;CC BY-SA 3.0&lt;/a&gt;&lt;/div&gt;
-</description>
-        <pubDate>Sat, 26 Oct 2013 00:00:00 -0700</pubDate>
-        <link>http://tedbergeron.github.io/2013/10/26/background-image.html</link>
-        <guid isPermaLink="true">http://tedbergeron.github.io/2013/10/26/background-image.html</guid>
-        
-        <category>sample post</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Syntax Highlighting Post</title>
-        <description>&lt;p&gt;Syntax highlighting is a feature that displays source code, in different colors and fonts according to the category of terms. This feature facilitates writing in a structured language such as a programming language or a markup language as both structures and syntax errors are visually distinct. Highlighting does not affect the meaning of the text itself; it is intended only for human readers.&lt;a href=&quot;http://en.wikipedia.org/wiki/Syntax_highlighting&quot;&gt;^1&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3&gt;Pygments Code Blocks&lt;/h3&gt;
-
-&lt;p&gt;To modify styling and highlight colors edit &lt;code&gt;/_sass/_pygments.scss&lt;/code&gt;.&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;#container {
-    float: left;
-    margin: 0 -240px 0 0;
-    width: 100%;
-}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&amp;lt;nav class=&amp;quot;pagination&amp;quot; role=&amp;quot;navigation&amp;quot;&amp;gt;
-    {% if page.previous %}
-        &amp;lt;a href=&amp;quot;{{ site.url }}{{ page.previous.url }}&amp;quot; class=&amp;quot;btn&amp;quot; title=&amp;quot;{{ page.previous.title }}&amp;quot;&amp;gt;Previous article&amp;lt;/a&amp;gt;
-    {% endif %}
-    {% if page.next %}
-        &amp;lt;a href=&amp;quot;{{ site.url }}{{ page.next.url }}&amp;quot; class=&amp;quot;btn&amp;quot; title=&amp;quot;{{ page.next.title }}&amp;quot;&amp;gt;Next article&amp;lt;/a&amp;gt;
-    {% endif %}
-&amp;lt;/nav&amp;gt;&amp;lt;!-- /.pagination --&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;module Jekyll
-  class TagIndex &amp;lt; Page
-    def initialize(site, base, dir, tag)
-      @site = site
-      @base = base
-      @dir = dir
-      @name = 'index.html'
-      self.process(@name)
-      self.read_yaml(File.join(base, '_layouts'), 'tag_index.html')
-      self.data['tag'] = tag
-      tag_title_prefix = site.config['tag_title_prefix'] || 'Tagged: '
-      tag_title_suffix = site.config['tag_title_suffix'] || '&amp;amp;#8211;'
-      self.data['title'] = &amp;quot;#{tag_title_prefix}#{tag}&amp;quot;
-      self.data['description'] = &amp;quot;An archive of posts tagged #{tag}.&amp;quot;
-    end
-  end
-end&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;h3&gt;Standard Code Block&lt;/h3&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;&amp;lt;nav class=&amp;quot;pagination&amp;quot; role=&amp;quot;navigation&amp;quot;&amp;gt;
-    {% if page.previous %}
-        &amp;lt;a href=&amp;quot;{{ site.url }}{{ page.previous.url }}&amp;quot; class=&amp;quot;btn&amp;quot; title=&amp;quot;{{ page.previous.title }}&amp;quot;&amp;gt;Previous article&amp;lt;/a&amp;gt;
-    {% endif %}
-    {% if page.next %}
-        &amp;lt;a href=&amp;quot;{{ site.url }}{{ page.next.url }}&amp;quot; class=&amp;quot;btn&amp;quot; title=&amp;quot;{{ page.next.title }}&amp;quot;&amp;gt;Next article&amp;lt;/a&amp;gt;
-    {% endif %}
-&amp;lt;/nav&amp;gt;&amp;lt;!-- /.pagination --&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h3&gt;Fenced Code Blocks&lt;/h3&gt;
-
-&lt;p&gt;To modify styling and highlight colors edit &lt;code&gt;/_sass/_coderay.scss&lt;/code&gt;. Line numbers and a few other things can be modified in &lt;code&gt;_config.yml&lt;/code&gt;. Consult &lt;a href=&quot;http://jekyllrb.com/docs/configuration/&quot;&gt;Jekyll&amp;#39;s documentation&lt;/a&gt; for more information.&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;#container {
-    float: left;
-    margin: 0 -240px 0 0;
-    width: 100%;
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&amp;lt;nav class=&amp;quot;pagination&amp;quot; role=&amp;quot;navigation&amp;quot;&amp;gt;
-    {% if page.previous %}
-        &amp;lt;a href=&amp;quot;{{ site.url }}{{ page.previous.url }}&amp;quot; class=&amp;quot;btn&amp;quot; title=&amp;quot;{{ page.previous.title }}&amp;quot;&amp;gt;Previous article&amp;lt;/a&amp;gt;
-    {% endif %}
-    {% if page.next %}
-        &amp;lt;a href=&amp;quot;{{ site.url }}{{ page.next.url }}&amp;quot; class=&amp;quot;btn&amp;quot; title=&amp;quot;{{ page.next.title }}&amp;quot;&amp;gt;Next article&amp;lt;/a&amp;gt;
-    {% endif %}
-&amp;lt;/nav&amp;gt;&amp;lt;!-- /.pagination --&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;module Jekyll
-  class TagIndex &amp;lt; Page
-    def initialize(site, base, dir, tag)
-      @site = site
-      @base = base
-      @dir = dir
-      @name = 'index.html'
-      self.process(@name)
-      self.read_yaml(File.join(base, '_layouts'), 'tag_index.html')
-      self.data['tag'] = tag
-      tag_title_prefix = site.config['tag_title_prefix'] || 'Tagged: '
-      tag_title_suffix = site.config['tag_title_suffix'] || '&amp;amp;#8211;'
-      self.data['title'] = &amp;quot;#{tag_title_prefix}#{tag}&amp;quot;
-      self.data['description'] = &amp;quot;An archive of posts tagged #{tag}.&amp;quot;
-    end
-  end
-end
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h3&gt;GitHub Gist Embed&lt;/h3&gt;
-
-&lt;p&gt;An example of a Gist embed below.&lt;/p&gt;
-
-&lt;script src=&quot;https://gist.github.com/mmistakes/6589546.js&quot;&gt; &lt;/script&gt;
-</description>
-        <pubDate>Fri, 16 Aug 2013 00:00:00 -0700</pubDate>
-        <link>http://tedbergeron.github.io/2013/08/16/code-highlighting-post.html</link>
-        <guid isPermaLink="true">http://tedbergeron.github.io/2013/08/16/code-highlighting-post.html</guid>
-        
-        <category>sample post</category>
-        
-        <category>code</category>
-        
-        <category>highlighting</category>
+        <link>http://localhost:4000/2014/07/31/author-override.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2014/07/31/author-override.html</guid>
         
         
       </item>
