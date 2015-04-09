@@ -6,21 +6,65 @@
 </description>
     <link>http://tedbergeron.github.io/</link>
     <atom:link href="http://tedbergeron.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 08 Apr 2015 22:23:47 -0700</pubDate>
-    <lastBuildDate>Wed, 08 Apr 2015 22:23:47 -0700</lastBuildDate>
+    <pubDate>Thu, 09 Apr 2015 13:28:25 -0700</pubDate>
+    <lastBuildDate>Thu, 09 Apr 2015 13:28:25 -0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
         <title>Local AsciiDoc Website</title>
         <description>&lt;h1&gt;Local AsciiDoc Website&lt;/h1&gt;
+&lt;div id=&quot;preamble&quot;&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;In my &lt;a href=&quot;http://tedbergeron.github.io/2015/03/29/Atom-Editor-AsciiDoc.html&quot;&gt;last post&lt;/a&gt; I made a &quot;Pro Tip&quot; recommendation to use the &lt;a href=&quot;https://chrome.google.com/webstore/detail/asciidoctorjs-live-previe/iaalpfgpbocpdfblpnhhgllgbdbchmia?hl=en-US&quot;&gt;Asciidoctor.js Live Preview&lt;/a&gt; extension for Chrome to make a local website or wiki-like site.&lt;/p&gt;
+&lt;p&gt;In my &lt;a href=&quot;http://tedbergeron.github.io/2015/03/29/Atom-Editor-AsciiDoc.html&quot;&gt;last post&lt;/a&gt; I briefly mentioned how you could make a local website out of your docs using only&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;A text editor, like Notepad&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A browser extension in Chrome &lt;a href=&quot;https://chrome.google.com/webstore/detail/asciidoctorjs-live-previe/iaalpfgpbocpdfblpnhhgllgbdbchmia?hl=en-US&quot;&gt;Asciidoctor.js Live Preview&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A little bit of AsciiDoc formatting&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;I have a lot of documentation that I update and refer to everyday. It is marked up with AsciiDoc. I find the best way to work with it is to organize all my docs and link them together into a mini-website on my laptop.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;templates-to-get-you-started&quot;&gt;Templates to get you started&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;To get you started, I&amp;#8217;ve created a few docs and linked them together so you can quickly see how this works.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
 &lt;p&gt;Start by cloning this repo  &lt;a href=&quot;https://github.com/tedbergeron/Asciidoctor-LivePreview-Website&quot;&gt;Asciidoctor-LivePreview-Website&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Install the Asciidoctor.js Live Preview.&lt;/p&gt;
+&lt;p&gt;You can just download the .ZIP and place the files together in a directory.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;asciidoctor-js-live-preview&quot;&gt;Asciidoctor.js Live Preview&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Install the Asciidoctor.js Live Preview in your browser if you don&amp;#8217;t already have it&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Chrome: &lt;a href=&quot;https://chrome.google.com/webstore/detail/asciidoctorjs-live-previe/iaalpfgpbocpdfblpnhhgllgbdbchmia?hl=en-US&quot;&gt;Asciidoctor.js Live Preview&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Firefox: &lt;a href=&quot;https://addons.mozilla.org/en-us/firefox/addon/asciidoctorjs-live-preview/?src=search&quot;&gt;Asciidoctor.js Live Preview&lt;/a&gt; (not as full-featured as Chrome one yet)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
 &lt;p&gt;Set the options for it&lt;/p&gt;
@@ -34,31 +78,82 @@
 &lt;p&gt;Preview .txt files: &lt;span class=&quot;icon black&quot;&gt;&lt;i class=&quot;fa fa-check&quot;&gt;&lt;/i&gt;&lt;/span&gt; &lt;em&gt;(so you can use these .txt files in addition to .adoc files)&lt;/em&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Theme / Stylesheet: &lt;em&gt;(pick one)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Click save.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Click save.&lt;/p&gt;
 &lt;/div&gt;
-&lt;div class=&quot;admonitionblock tip&quot;&gt;
-&lt;table&gt;
-&lt;tr&gt;
-&lt;td class=&quot;icon&quot;&gt;
-&lt;i class=&quot;fa icon-tip&quot; title=&quot;Tip&quot;&gt;&lt;/i&gt;
-&lt;/td&gt;
-&lt;td class=&quot;content&quot;&gt;
-&lt;strong&gt;Pro Tip:&lt;/strong&gt; Bookmark your AsciiDoc text file. Then write links to all your other docs creating a simple wiki or intranet site on your computer; powered by this browser extension and a text editor.
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/table&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;open-the-index-txt-in-your-browser&quot;&gt;Open the index.txt in your browser&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Find the directory where you copied the text files from the &lt;a href=&quot;https://github.com/tedbergeron/Asciidoctor-LivePreview-Website&quot;&gt;Asciidoctor-LivePreview-Website&lt;/a&gt; repo.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;&lt;a href=&quot;https://addons.mozilla.org/en-us/firefox/addon/asciidoctorjs-live-preview/?src=search&quot;&gt;Asciidoctor.js Live Preview&lt;/a&gt; is also available for Firefox but it is not as mature as the Chrome version as of the time of this writing. But I&amp;#8217;m sure it will catch up quickly.&lt;/p&gt;
+&lt;p&gt;Right-click on index.txt and open with Chrome.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;You should see it open and render like a mini-website. Click around and test it out.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;start-editing-it&quot;&gt;Start Editing it.&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;When you look at the text files you&amp;#8217;ll notice that the index.txt file has&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;CodeRay highlight&quot;&gt;&lt;code data-lang=&quot;AsciiDoc&quot;&gt;Unresolved directive in &amp;lt;stdin&amp;gt; - include::header.txt[]
+
+Unresolved directive in &amp;lt;stdin&amp;gt; - include::footer.txt[]&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;You can use those on all your docs to create a navigation menu at the top and a mini-sitemap at the bottom.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;linking-your-docs-together&quot;&gt;Linking your docs together&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;The main AsciiDoc code you&amp;#8217;ll need to hook your docs together is link. It&amp;#8217;s pretty straight forward to use&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;CodeRay highlight&quot;&gt;&lt;code data-lang=&quot;AsciiDoc&quot;&gt;link:AnotherDocument.txt[Another Document]&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;bookmark-your-index-txt-file&quot;&gt;Bookmark your index.txt file&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Bookmark your main doc. You might want to name it README.txt. Then write links to all your other docs creating a simple website.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;not-quite-a-wiki&quot;&gt;Not quite a wiki&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;It is not the same as a wiki but it is so simple to edit. I usually edit in one window on the left and preview the changes in Chrome on the right.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;You could build an intranet site on your network using this concept.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;And if you are looking for something better than Notepad to write your docs, try the &lt;a href=&quot;http://tedbergeron.github.io/2015/03/29/Atom-Editor-AsciiDoc.html&quot;&gt;Atom Editor for AsciiDoc&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 &lt;/div&gt;</description>
-        <pubDate>Sat, 09 May 2015 00:00:00 -0700</pubDate>
-        <link>http://tedbergeron.github.io/2015/05/09/AsciiDoc-Website.html</link>
-        <guid isPermaLink="true">http://tedbergeron.github.io/2015/05/09/AsciiDoc-Website.html</guid>
+        <pubDate>Thu, 09 Apr 2015 00:00:00 -0700</pubDate>
+        <link>http://tedbergeron.github.io/2015/04/09/AsciiDoc-Website.html</link>
+        <guid isPermaLink="true">http://tedbergeron.github.io/2015/04/09/AsciiDoc-Website.html</guid>
         
         <category>featured</category>
         

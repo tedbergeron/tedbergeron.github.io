@@ -16,7 +16,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
-  <link rel="canonical" href="http://tedbergeron.github.io/2015/05/09/AsciiDoc-Website.html">
+  <link rel="canonical" href="http://tedbergeron.github.io/2015/04/09/AsciiDoc-Website.html">
 
   <link rel="shortcut icon" href="/assets/images/favicon.ico">
 <!--  <link rel="stylesheet" href=""> -->
@@ -47,7 +47,7 @@
               <div class="author-image" style="background-image: url(/assets/images/author.jpg)">Blog Logo</div>
               <h4 class="author-name" itemprop="author" itemscope itemtype="http://schema.org/Person"></h4>
               on
-              <time datetime="2015-05-09T00:00:00-07:00">09 May 2015</time>
+              <time datetime="2015-04-09T00:00:00-07:00">09 Apr 2015</time>
               <!-- , tagged on <span class="post-tag-">, <a href="/tag/"></a></span> -->
             </div>
           </div>
@@ -62,14 +62,58 @@
           </div>
           <a name="topofpage"></a>
           <h1>Local AsciiDoc Website</h1>
+<div id="preamble">
+<div class="sectionbody">
 <div class="paragraph">
-<p>In my <a href="http://tedbergeron.github.io/2015/03/29/Atom-Editor-AsciiDoc.html">last post</a> I made a "Pro Tip" recommendation to use the <a href="https://chrome.google.com/webstore/detail/asciidoctorjs-live-previe/iaalpfgpbocpdfblpnhhgllgbdbchmia?hl=en-US">Asciidoctor.js Live Preview</a> extension for Chrome to make a local website or wiki-like site.</p>
+<p>In my <a href="http://tedbergeron.github.io/2015/03/29/Atom-Editor-AsciiDoc.html">last post</a> I briefly mentioned how you could make a local website out of your docs using only</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>A text editor, like Notepad</p>
+</li>
+<li>
+<p>A browser extension in Chrome <a href="https://chrome.google.com/webstore/detail/asciidoctorjs-live-previe/iaalpfgpbocpdfblpnhhgllgbdbchmia?hl=en-US">Asciidoctor.js Live Preview</a></p>
+</li>
+<li>
+<p>A little bit of AsciiDoc formatting</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>I have a lot of documentation that I update and refer to everyday. It is marked up with AsciiDoc. I find the best way to work with it is to organize all my docs and link them together into a mini-website on my laptop.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="templates-to-get-you-started">Templates to get you started</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>To get you started, I&#8217;ve created a few docs and linked them together so you can quickly see how this works.</p>
 </div>
 <div class="paragraph">
 <p>Start by cloning this repo  <a href="https://github.com/tedbergeron/Asciidoctor-LivePreview-Website">Asciidoctor-LivePreview-Website</a></p>
 </div>
 <div class="paragraph">
-<p>Install the Asciidoctor.js Live Preview.</p>
+<p>You can just download the .ZIP and place the files together in a directory.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="asciidoctor-js-live-preview">Asciidoctor.js Live Preview</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Install the Asciidoctor.js Live Preview in your browser if you don&#8217;t already have it</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Chrome: <a href="https://chrome.google.com/webstore/detail/asciidoctorjs-live-previe/iaalpfgpbocpdfblpnhhgllgbdbchmia?hl=en-US">Asciidoctor.js Live Preview</a></p>
+</li>
+<li>
+<p>Firefox: <a href="https://addons.mozilla.org/en-us/firefox/addon/asciidoctorjs-live-preview/?src=search">Asciidoctor.js Live Preview</a> (not as full-featured as Chrome one yet)</p>
+</li>
+</ul>
 </div>
 <div class="paragraph">
 <p>Set the options for it</p>
@@ -83,34 +127,85 @@
 <p>Preview .txt files: <span class="icon black"><i class="fa fa-check"></i></span> <em>(so you can use these .txt files in addition to .adoc files)</em></p>
 </li>
 <li>
-<p>Theme / Stylesheet: <em>(pick one)</em></p>
+<p>Click save.</p>
 </li>
 </ul>
 </div>
-<div class="paragraph">
-<p>Click save.</p>
 </div>
-<div class="admonitionblock tip">
-<table>
-<tr>
-<td class="icon">
-<i class="fa icon-tip" title="Tip"></i>
-</td>
-<td class="content">
-<strong>Pro Tip:</strong> Bookmark your AsciiDoc text file. Then write links to all your other docs creating a simple wiki or intranet site on your computer; powered by this browser extension and a text editor.
-</td>
-</tr>
-</table>
+</div>
+<div class="sect1">
+<h2 id="open-the-index-txt-in-your-browser">Open the index.txt in your browser</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Find the directory where you copied the text files from the <a href="https://github.com/tedbergeron/Asciidoctor-LivePreview-Website">Asciidoctor-LivePreview-Website</a> repo.</p>
 </div>
 <div class="paragraph">
-<p><a href="https://addons.mozilla.org/en-us/firefox/addon/asciidoctorjs-live-preview/?src=search">Asciidoctor.js Live Preview</a> is also available for Firefox but it is not as mature as the Chrome version as of the time of this writing. But I&#8217;m sure it will catch up quickly.</p>
+<p>Right-click on index.txt and open with Chrome.</p>
+</div>
+<div class="paragraph">
+<p>You should see it open and render like a mini-website. Click around and test it out.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="start-editing-it">Start Editing it.</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>When you look at the text files you&#8217;ll notice that the index.txt file has</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="AsciiDoc">Unresolved directive in &lt;stdin&gt; - include::header.txt[]
+
+Unresolved directive in &lt;stdin&gt; - include::footer.txt[]</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>You can use those on all your docs to create a navigation menu at the top and a mini-sitemap at the bottom.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="linking-your-docs-together">Linking your docs together</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The main AsciiDoc code you&#8217;ll need to hook your docs together is link. It&#8217;s pretty straight forward to use</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="AsciiDoc">link:AnotherDocument.txt[Another Document]</code></pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="bookmark-your-index-txt-file">Bookmark your index.txt file</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Bookmark your main doc. You might want to name it README.txt. Then write links to all your other docs creating a simple website.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="not-quite-a-wiki">Not quite a wiki</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>It is not the same as a wiki but it is so simple to edit. I usually edit in one window on the left and preview the changes in Chrome on the right.</p>
+</div>
+<div class="paragraph">
+<p>You could build an intranet site on your network using this concept.</p>
+</div>
+<div class="paragraph">
+<p>And if you are looking for something better than Notepad to write your docs, try the <a href="http://tedbergeron.github.io/2015/03/29/Atom-Editor-AsciiDoc.html">Atom Editor for AsciiDoc</a></p>
+</div>
+</div>
 </div>
         </section>
         <footer class="post-footer">
           <section class="share">
             
               
-                <a class="icon-twitter" href="http://twitter.com/share?text=Local+AsciiDoc+Website&amp;url=http://tedbergeron.github.io/2015/05/09/AsciiDoc-Website"
+                <a class="icon-twitter" href="http://twitter.com/share?text=Local+AsciiDoc+Website&amp;url=http://tedbergeron.github.io/2015/04/09/AsciiDoc-Website"
                   onclick="window.open(this.href, 'twitter-share', 'width=550,height=255');return false;">
                 <i class="fa fa-twitter"></i><span class="hidden">twitter</span>
                 </a>
@@ -128,7 +223,7 @@
               <h4>Ted Bergeron</h4>
               <p class="bio"></p>
               <hr>
-              <p class="published">Published <time datetime="2015-05-09 00:00">09 May 2015</time></p>
+              <p class="published">Published <time datetime="2015-04-09 00:00">09 Apr 2015</time></p>
             </section>
           </div>
           
