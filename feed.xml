@@ -6,8 +6,8 @@
 </description>
     <link>http://tedbergeron.github.io/</link>
     <atom:link href="http://tedbergeron.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 09 Apr 2015 19:05:49 -0700</pubDate>
-    <lastBuildDate>Thu, 09 Apr 2015 19:05:49 -0700</lastBuildDate>
+    <pubDate>Fri, 10 Apr 2015 19:16:07 -0700</pubDate>
+    <lastBuildDate>Fri, 10 Apr 2015 19:16:07 -0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -77,6 +77,18 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
+&lt;div class=&quot;admonitionblock warning&quot;&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;td class=&quot;icon&quot;&gt;
+&lt;i class=&quot;fa icon-warning&quot; title=&quot;Warning&quot;&gt;&lt;/i&gt;
+&lt;/td&gt;
+&lt;td class=&quot;content&quot;&gt;
+If you are using Firefox change all your file extensions to .adoc because there&amp;#8217;s no option to use .txt at this time.
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&quot;sect1&quot;&gt;
@@ -101,13 +113,13 @@
 &lt;/div&gt;
 &lt;div class=&quot;listingblock&quot;&gt;
 &lt;div class=&quot;content&quot;&gt;
-&lt;pre class=&quot;CodeRay highlight&quot;&gt;&lt;code data-lang=&quot;AsciiDoc&quot;&gt;include header.txt[]
+&lt;pre class=&quot;CodeRay highlight&quot;&gt;&lt;code data-lang=&quot;AsciiDoc&quot;&gt; include::header.txt[]
 
-include footer.txt[]&lt;/code&gt;&lt;/pre&gt;
+ include::footer.txt[]&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;You can use those on all your docs to create a navigation menu at the top and a mini-sitemap at the bottom.&lt;/p&gt;
+&lt;p&gt;You can use those in all your docs to create a navigation menu at the top and a mini-sitemap at the bottom. You&amp;#8217;ll find header.txt and footer.txt in the repository. I&amp;#8217;ve used AsciiDoc tables to make the columns.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
 &lt;p&gt;Or leave them off and just add a link back to the index.txt page&lt;/p&gt;
@@ -134,7 +146,7 @@ include footer.txt[]&lt;/code&gt;&lt;/pre&gt;
 &lt;h2 id=&quot;bookmark-your-index-txt-file&quot;&gt;Bookmark your index.txt file&lt;/h2&gt;
 &lt;div class=&quot;sectionbody&quot;&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Don&amp;#8217;t forget to bookmark your main doc. You might want to name it README.txt. Then write links to all your other docs creating a simple website.&lt;/p&gt;
+&lt;p&gt;Don&amp;#8217;t forget to bookmark your main doc. If index.txt seems too 'WebDev' like, you might want to name it README.txt. Then write links to all your other docs creating a simple website.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
