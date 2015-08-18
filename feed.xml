@@ -6,9 +6,224 @@
 </description>
     <link>http://tedbergeron.github.io/</link>
     <atom:link href="http://tedbergeron.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 10 Apr 2015 19:16:07 -0700</pubDate>
-    <lastBuildDate>Fri, 10 Apr 2015 19:16:07 -0700</lastBuildDate>
+    <pubDate>Tue, 18 Aug 2015 16:17:03 -0700</pubDate>
+    <lastBuildDate>Tue, 18 Aug 2015 16:17:03 -0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Site Made With Asciidoctor</title>
+        <description>&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Take a look at this demo of website I made &lt;em&gt;only using Asciidoctor&lt;/em&gt; and with &lt;strong&gt;one command&lt;/strong&gt;. &lt;a href=&quot;http://tedbergeron.github.io/SiteMadeWithAsciidoctor/&quot; class=&quot;bare&quot;&gt;http://tedbergeron.github.io/SiteMadeWithAsciidoctor/&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;how-to&quot;&gt;How To&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Start by downloading the files in my &lt;a href=&quot;https://github.com/tedbergeron/SiteMadeWithAsciidoctor&quot;&gt;GitHub Repo&lt;/a&gt;sitory.&lt;br&gt;
+Edit the content in the text files marking them up with AsciiDoc.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;I am using a header and footer that is included on the index and page one AsciiDoc text file.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;to-render-the-pages&quot;&gt;To render the pages&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;At the command prompt&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;literalblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre&gt;&amp;gt; asciidoctor *.txt&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;push-or-ftp&quot;&gt;Push or FTP&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Push your files back to your GitHub &#39;gh-pages&#39; branch.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Or just FTP the .html files that were generated to your own website.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;that-s-it-you-re-done&quot;&gt;That&amp;#8217;s it, you&amp;#8217;re done.&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Following is some additional information to customize your website.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect3&quot;&gt;
+&lt;h4 id=&quot;use-different-asciidoctor-themes&quot;&gt;Use Different Asciidoctor Themes&lt;/h4&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;I&amp;#8217;ve included a couple themes in the styles directory in the repository. To use them.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;At the command prompt&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;literalblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre&gt;&amp;gt; asciidoctor -a stylesheet=styles/maker.css  *.txt&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;If you&amp;#8217;d like to use the colony stylesheet use&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;literalblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre&gt;&amp;gt; asciidoctor -a stylesheet=styles/colony.css  *.txt&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;admonitionblock note&quot;&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;td class=&quot;icon&quot;&gt;
+&lt;i class=&quot;fa icon-note&quot; title=&quot;Note&quot;&gt;&lt;/i&gt;
+&lt;/td&gt;
+&lt;td class=&quot;content&quot;&gt;
+You can get other themes and preview them here: &lt;a href=&quot;http://themes.asciidoctor.org/&quot; class=&quot;bare&quot;&gt;http://themes.asciidoctor.org/&lt;/a&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect3&quot;&gt;
+&lt;h4 id=&quot;smart-links&quot;&gt;Smart Links&lt;/h4&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;I&amp;#8217;m using Asciidoctor &#39;smart links&#39; to convert the file extension &quot;.adoc&quot; or &quot;.txt&quot; to &quot;.html&quot;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;literalblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre&gt;&amp;lt;&amp;lt;page2.adoc#,Smart Link to page 2&amp;gt;&amp;gt;
+or
+&amp;lt;&amp;lt;page2.txt#,Smart Link to page 2&amp;gt;&amp;gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;both renders as a link&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;literalblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre&gt;href=&quot;page2.html&quot;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect3&quot;&gt;
+&lt;h4 id=&quot;ignore-the-extra-files&quot;&gt;Ignore the Extra Files&lt;/h4&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;This method will render the header.txt and footer.txt into html files too. But since they&amp;#8217;re not linked to anything, it&amp;#8217;s fine for them to live along side the others.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;You could get organized and put all the Asciidoc text files into a sub-directory, but I&amp;#8217;ll leave that to you to figure out the logistics.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;My goal was to generate the simplest website using the most minimal command.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect3&quot;&gt;
+&lt;h4 id=&quot;why-don-t-you-use-adoc-files&quot;&gt;Why don&amp;#8217;t you use .adoc files?&lt;/h4&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Typically you see AsciiDoc files with an .adoc or .asciidoc file extension. But since they are just text files and since Asciidoctor will try to render any text file you feed it, I choose to use .txt so people can easily edit the files in Notepad.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect3&quot;&gt;
+&lt;h4 id=&quot;additional-info&quot;&gt;Additional Info&lt;/h4&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;http://asciidoctor.org/docs/what-is-asciidoc/&quot;&gt;What is AsciiDoc?&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;http://asciidoctor.org/docs/#get-started-with-asciidoctor&quot;&gt;Get Started with Asciidoctor&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+        <pubDate>Sun, 16 Aug 2015 00:00:00 -0700</pubDate>
+        <link>http://tedbergeron.github.io/2015/08/16/Site-Made_With-Asciidoctor.html</link>
+        <guid isPermaLink="true">http://tedbergeron.github.io/2015/08/16/Site-Made_With-Asciidoctor.html</guid>
+        
+        <category>featured</category>
+        
+        <category>AsciiDoc</category>
+        
+        <category>Asciidoctor</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Shifting Priorities, Pick One</title>
+        <description>&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Often during times of extreme workloads this little project management technique can work wonders for your dev team that is faced with too many project deadlines or too much scope creep.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Try using this script when dealing with project owners.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;quoteblock&quot;&gt;
+&lt;blockquote&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;You said your top priority was the ABC project.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Now you say your top priority is this new XYZ project.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;So we are going to &lt;em&gt;stop&lt;/em&gt; work on the old ABC project and start work on the new XYZ one. Is that really what you want?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Okay then the old ABC project is not going to get done by &#39;end of quarter&#39; [insert former completion goal date here]&lt;/p&gt;
+&lt;/div&gt;
+&lt;/blockquote&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;The concept is to get the project owner to pick their top priority and acknowledge that their choice of shifting priorities or adding to the scope of the project has just pushed the former completion goal date into the future.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;This gives the project owner an opportunity to re-evaluate their top priority on the spot.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;And it can be a quick, informal conversation that works just like the formal process of making them sign off on project changes.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Either way it gives the development team the reaffirmation that they are working on the project owner&amp;#8217;s top priority.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;admonitionblock tip&quot;&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;td class=&quot;icon&quot;&gt;
+&lt;i class=&quot;fa icon-tip&quot; title=&quot;Tip&quot;&gt;&lt;/i&gt;
+&lt;/td&gt;
+&lt;td class=&quot;content&quot;&gt;
+This is very important from a team morale standpoint because the dev team now knows they no longer should be working on the old ABC project at this time. And that the project owner just acknowledged that &lt;em&gt;they&lt;/em&gt; just pushed back the deadline for the old ABC project.
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Later if the project owner complains that the original deadline for old ABC project goes past, you can list &lt;em&gt;their&lt;/em&gt; choice to move the dev team on to the XYZ project which moved the deadline.&lt;br&gt;
+You just have to keep track of their choices and how long it takes to accomplish them. Of course YMMV (your mileage may vary) in the business world, but at least you have a strong, written justification of what happened.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Also each time you meet with that project owner, you start by asking: &lt;em&gt;&#39;We are still working on the new XYZ project, is that still your top priority?&#39;&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Then you can go on to talk about any new projects and finish the meeting with &lt;em&gt;&#39;Okay we&amp;#8217;ll put today&amp;#8217;s discussion of changes in the backlog and keep working on the new XYZ project&#39;.&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;</description>
+        <pubDate>Mon, 13 Jul 2015 00:00:00 -0700</pubDate>
+        <link>http://tedbergeron.github.io/2015/07/13/Shifting-Priorities-Pick-One.html</link>
+        <guid isPermaLink="true">http://tedbergeron.github.io/2015/07/13/Shifting-Priorities-Pick-One.html</guid>
+        
+        <category>Project Management</category>
+        
+        
+      </item>
     
       <item>
         <title>Local AsciiDoc Website</title>
@@ -146,7 +361,7 @@ If you are using Firefox change all your file extensions to .adoc because there&
 &lt;h2 id=&quot;bookmark-your-index-txt-file&quot;&gt;Bookmark your index.txt file&lt;/h2&gt;
 &lt;div class=&quot;sectionbody&quot;&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Don&amp;#8217;t forget to bookmark your main doc. If index.txt seems too 'WebDev' like, you might want to name it README.txt. Then write links to all your other docs creating a simple website.&lt;/p&gt;
+&lt;p&gt;Don&amp;#8217;t forget to bookmark your main doc. If index.txt seems too &#39;WebDev&#39; like, you might want to name it README.txt. Then write links to all your other docs creating a simple website.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -164,8 +379,6 @@ If you are using Firefox change all your file extensions to .adoc because there&
         <pubDate>Thu, 09 Apr 2015 00:00:00 -0700</pubDate>
         <link>http://tedbergeron.github.io/2015/04/09/AsciiDoc-Website.html</link>
         <guid isPermaLink="true">http://tedbergeron.github.io/2015/04/09/AsciiDoc-Website.html</guid>
-        
-        <category>featured</category>
         
         <category>AsciiDoc</category>
         
@@ -260,7 +473,7 @@ In my opinion the &lt;a href=&quot;https://atom.io/&quot;&gt;Atom Editor&lt;/a&g
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;You&amp;#8217;ll need these two packages for the &lt;a href=&quot;https://atom.io/&quot;&gt;Atom Editor&lt;/a&gt; to make working with AsciiDoc a dream. Go to File &amp;gt; Settings &amp;gt; Install. Search for 'AsciiDoc'. Both of these are by 'asciidoctor'&lt;/p&gt;
+&lt;p&gt;You&amp;#8217;ll need these two packages for the &lt;a href=&quot;https://atom.io/&quot;&gt;Atom Editor&lt;/a&gt; to make working with AsciiDoc a dream. Go to File &amp;gt; Settings &amp;gt; Install. Search for &#39;AsciiDoc&#39;. Both of these are by &#39;asciidoctor&#39;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;ulist&quot;&gt;
 &lt;ul&gt;
@@ -321,9 +534,9 @@ In my opinion the &lt;a href=&quot;https://atom.io/&quot;&gt;Atom Editor&lt;/a&g
 &lt;div class=&quot;listingblock&quot;&gt;
 &lt;div class=&quot;title&quot;&gt;keymap file&lt;/div&gt;
 &lt;div class=&quot;content&quot;&gt;
-&lt;pre class=&quot;CodeRay highlight&quot;&gt;&lt;code data-lang=&quot;cson&quot;&gt;'atom-workspace, atom-workspace atom-text-editor':
-  'ctrl-shift-a': 'asciidoc-preview:toggle'
-  'ctrl-alt-a': 'asciidoc-preview:toggle-render-on-save-only'&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&quot;CodeRay highlight&quot;&gt;&lt;code data-lang=&quot;cson&quot;&gt;&#39;atom-workspace, atom-workspace atom-text-editor&#39;:
+  &#39;ctrl-shift-a&#39;: &#39;asciidoc-preview:toggle&#39;
+  &#39;ctrl-alt-a&#39;: &#39;asciidoc-preview:toggle-render-on-save-only&#39;&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -352,8 +565,6 @@ In my opinion the &lt;a href=&quot;https://atom.io/&quot;&gt;Atom Editor&lt;/a&g
         <pubDate>Sun, 29 Mar 2015 00:00:00 -0700</pubDate>
         <link>http://tedbergeron.github.io/2015/03/29/Atom-Editor-AsciiDoc.html</link>
         <guid isPermaLink="true">http://tedbergeron.github.io/2015/03/29/Atom-Editor-AsciiDoc.html</guid>
-        
-        <category>featured</category>
         
         <category>AtomEditor</category>
         
@@ -634,150 +845,6 @@ very important tip
         <pubDate>Thu, 16 Oct 2014 00:00:00 -0700</pubDate>
         <link>http://tedbergeron.github.io/2014/10/16/my-second-post.html</link>
         <guid isPermaLink="true">http://tedbergeron.github.io/2014/10/16/my-second-post.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Author Override</title>
-        <description>&lt;p&gt;For those of you who may have content written by multiple authors on your site you can now assign different authors to each post if desired.&lt;/p&gt;
-
-&lt;p&gt;Previously the theme used a global author for the entire site and those attributes would be used in all bylines, social networking links, Twitter Card attribution, and Google Authorship. These &lt;code&gt;owner&lt;/code&gt; variables were defined in &lt;code&gt;config.yml&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Start by modifying or creating a new &lt;code&gt;authors.yml&lt;/code&gt; file in the &lt;code&gt;_data&lt;/code&gt; folder and add your authors using the following format.&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;# Authors
-
-billy_rick:
-  name: Billy Rick
-  web: http://thewhip.com
-  email: billy@rick.com
-  bio: &amp;quot;What do you want, jewels? I am a very extravagant man.&amp;quot;
-  avatar: bio-photo-2.jpg
-  twitter: extravagantman
-  google:
-    plus: BillyRick
-
-cornelius_fiddlebone:
-  name: Cornelius Fiddlebone
-  email: cornelius@thewhip.com
-  bio: &amp;quot;I ordered what?&amp;quot;
-  avatar: bio-photo.jpg
-  twitter: rhymeswithsackit
-  google:
-    plus: CorneliusFiddlebone&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;To assign Billy Rick as an author for our post. You&amp;#39;d add the following YAML front matter to a post:&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;author: billy_rick&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-</description>
-        <pubDate>Thu, 31 Jul 2014 00:00:00 -0700</pubDate>
-        <link>http://tedbergeron.github.io/2014/07/31/author-override.html</link>
-        <guid isPermaLink="true">http://tedbergeron.github.io/2014/07/31/author-override.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Syntax Highlighting Post</title>
-        <description>&lt;p&gt;Syntax highlighting is a feature that displays source code, in different colors and fonts according to the category of terms. This feature facilitates writing in a structured language such as a programming language or a markup language as both structures and syntax errors are visually distinct. Highlighting does not affect the meaning of the text itself; it is intended only for human readers.&lt;a href=&quot;http://en.wikipedia.org/wiki/Syntax_highlighting&quot;&gt;^1&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3&gt;Pygments Code Blocks&lt;/h3&gt;
-
-&lt;p&gt;To modify styling and highlight colors edit &lt;code&gt;/_sass/_pygments.scss&lt;/code&gt;.&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;#container {
-    float: left;
-    margin: 0 -240px 0 0;
-    width: 100%;
-}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&amp;lt;nav class=&amp;quot;pagination&amp;quot; role=&amp;quot;navigation&amp;quot;&amp;gt;
-    {% if page.previous %}
-        &amp;lt;a href=&amp;quot;{{ site.url }}{{ page.previous.url }}&amp;quot; class=&amp;quot;btn&amp;quot; title=&amp;quot;{{ page.previous.title }}&amp;quot;&amp;gt;Previous article&amp;lt;/a&amp;gt;
-    {% endif %}
-    {% if page.next %}
-        &amp;lt;a href=&amp;quot;{{ site.url }}{{ page.next.url }}&amp;quot; class=&amp;quot;btn&amp;quot; title=&amp;quot;{{ page.next.title }}&amp;quot;&amp;gt;Next article&amp;lt;/a&amp;gt;
-    {% endif %}
-&amp;lt;/nav&amp;gt;&amp;lt;!-- /.pagination --&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;module Jekyll
-  class TagIndex &amp;lt; Page
-    def initialize(site, base, dir, tag)
-      @site = site
-      @base = base
-      @dir = dir
-      @name = 'index.html'
-      self.process(@name)
-      self.read_yaml(File.join(base, '_layouts'), 'tag_index.html')
-      self.data['tag'] = tag
-      tag_title_prefix = site.config['tag_title_prefix'] || 'Tagged: '
-      tag_title_suffix = site.config['tag_title_suffix'] || '&amp;amp;#8211;'
-      self.data['title'] = &amp;quot;#{tag_title_prefix}#{tag}&amp;quot;
-      self.data['description'] = &amp;quot;An archive of posts tagged #{tag}.&amp;quot;
-    end
-  end
-end&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;h3&gt;Standard Code Block&lt;/h3&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;&amp;lt;nav class=&amp;quot;pagination&amp;quot; role=&amp;quot;navigation&amp;quot;&amp;gt;
-    {% if page.previous %}
-        &amp;lt;a href=&amp;quot;{{ site.url }}{{ page.previous.url }}&amp;quot; class=&amp;quot;btn&amp;quot; title=&amp;quot;{{ page.previous.title }}&amp;quot;&amp;gt;Previous article&amp;lt;/a&amp;gt;
-    {% endif %}
-    {% if page.next %}
-        &amp;lt;a href=&amp;quot;{{ site.url }}{{ page.next.url }}&amp;quot; class=&amp;quot;btn&amp;quot; title=&amp;quot;{{ page.next.title }}&amp;quot;&amp;gt;Next article&amp;lt;/a&amp;gt;
-    {% endif %}
-&amp;lt;/nav&amp;gt;&amp;lt;!-- /.pagination --&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h3&gt;Fenced Code Blocks&lt;/h3&gt;
-
-&lt;p&gt;To modify styling and highlight colors edit &lt;code&gt;/_sass/_coderay.scss&lt;/code&gt;. Line numbers and a few other things can be modified in &lt;code&gt;_config.yml&lt;/code&gt;. Consult &lt;a href=&quot;http://jekyllrb.com/docs/configuration/&quot;&gt;Jekyll&amp;#39;s documentation&lt;/a&gt; for more information.&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;#container {
-    float: left;
-    margin: 0 -240px 0 0;
-    width: 100%;
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&amp;lt;nav class=&amp;quot;pagination&amp;quot; role=&amp;quot;navigation&amp;quot;&amp;gt;
-    {% if page.previous %}
-        &amp;lt;a href=&amp;quot;{{ site.url }}{{ page.previous.url }}&amp;quot; class=&amp;quot;btn&amp;quot; title=&amp;quot;{{ page.previous.title }}&amp;quot;&amp;gt;Previous article&amp;lt;/a&amp;gt;
-    {% endif %}
-    {% if page.next %}
-        &amp;lt;a href=&amp;quot;{{ site.url }}{{ page.next.url }}&amp;quot; class=&amp;quot;btn&amp;quot; title=&amp;quot;{{ page.next.title }}&amp;quot;&amp;gt;Next article&amp;lt;/a&amp;gt;
-    {% endif %}
-&amp;lt;/nav&amp;gt;&amp;lt;!-- /.pagination --&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;module Jekyll
-  class TagIndex &amp;lt; Page
-    def initialize(site, base, dir, tag)
-      @site = site
-      @base = base
-      @dir = dir
-      @name = 'index.html'
-      self.process(@name)
-      self.read_yaml(File.join(base, '_layouts'), 'tag_index.html')
-      self.data['tag'] = tag
-      tag_title_prefix = site.config['tag_title_prefix'] || 'Tagged: '
-      tag_title_suffix = site.config['tag_title_suffix'] || '&amp;amp;#8211;'
-      self.data['title'] = &amp;quot;#{tag_title_prefix}#{tag}&amp;quot;
-      self.data['description'] = &amp;quot;An archive of posts tagged #{tag}.&amp;quot;
-    end
-  end
-end
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h3&gt;GitHub Gist Embed&lt;/h3&gt;
-
-&lt;p&gt;An example of a Gist embed below.&lt;/p&gt;
-
-&lt;script src=&quot;https://gist.github.com/mmistakes/6589546.js&quot;&gt; &lt;/script&gt;
-</description>
-        <pubDate>Fri, 16 Aug 2013 00:00:00 -0700</pubDate>
-        <link>http://tedbergeron.github.io/2013/08/16/code-highlighting-post.html</link>
-        <guid isPermaLink="true">http://tedbergeron.github.io/2013/08/16/code-highlighting-post.html</guid>
-        
-        <category>sample post</category>
-        
-        <category>code</category>
-        
-        <category>highlighting</category>
         
         
       </item>

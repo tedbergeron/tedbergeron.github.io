@@ -7,7 +7,7 @@
   <!-- (1) force latest IE rendering engine: bit.ly/1c8EiC9 -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <title>Syntax Highlighting Post</title>
+  <title>Shifting Priorities, Pick One</title>
   <meta name="description" content="A Jekyll theme - Medium inspired
 " />
 
@@ -16,7 +16,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
-  <link rel="canonical" href="http://tedbergeron.github.io/2013/08/16/code-highlighting-post.html">
+  <link rel="canonical" href="http://tedbergeron.github.io/2015/07/13/Shifting-Priorities-Pick-One.html">
 
   <link rel="shortcut icon" href="/assets/images/favicon.ico">
 <!--  <link rel="stylesheet" href=""> -->
@@ -42,12 +42,12 @@
         
         <div class="noarticleimage">
           <div class="post-meta">
-            <h1 class="post-title">Syntax Highlighting Post</h1>
+            <h1 class="post-title">Shifting Priorities, Pick One</h1>
             <div class="cf post-meta-text">
               <div class="author-image" style="background-image: url(/assets/images/author.jpg)">Blog Logo</div>
               <h4 class="author-name" itemprop="author" itemscope itemtype="http://schema.org/Person"></h4>
               on
-              <time datetime="2013-08-16T00:00:00-07:00">16 Aug 2013</time>
+              <time datetime="2015-07-13T00:00:00-07:00">13 Jul 2015</time>
               <!-- , tagged on <span class="post-tag-">, <a href="/tag/"></a></span> -->
             </div>
           </div>
@@ -61,101 +61,68 @@
             <span class="post-reading-time"></span> read
           </div>
           <a name="topofpage"></a>
-          <p>Syntax highlighting is a feature that displays source code, in different colors and fonts according to the category of terms. This feature facilitates writing in a structured language such as a programming language or a markup language as both structures and syntax errors are visually distinct. Highlighting does not affect the meaning of the text itself; it is intended only for human readers.<a href="http://en.wikipedia.org/wiki/Syntax_highlighting">^1</a></p>
-
-<h3>Pygments Code Blocks</h3>
-
-<p>To modify styling and highlight colors edit <code>/_sass/_pygments.scss</code>.</p>
-
-<div class="highlight"><pre><code class="language-css" data-lang="css">#container {
-    float: left;
-    margin: 0 -240px 0 0;
-    width: 100%;
-}</code></pre></div>
-
-<div class="highlight"><pre><code class="language-html" data-lang="html">&lt;nav class=&quot;pagination&quot; role=&quot;navigation&quot;&gt;
-    {% if page.previous %}
-        &lt;a href=&quot;{{ site.url }}{{ page.previous.url }}&quot; class=&quot;btn&quot; title=&quot;{{ page.previous.title }}&quot;&gt;Previous article&lt;/a&gt;
-    {% endif %}
-    {% if page.next %}
-        &lt;a href=&quot;{{ site.url }}{{ page.next.url }}&quot; class=&quot;btn&quot; title=&quot;{{ page.next.title }}&quot;&gt;Next article&lt;/a&gt;
-    {% endif %}
-&lt;/nav&gt;&lt;!-- /.pagination --&gt;</code></pre></div>
-
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby">module Jekyll
-  class TagIndex &lt; Page
-    def initialize(site, base, dir, tag)
-      @site = site
-      @base = base
-      @dir = dir
-      @name = 'index.html'
-      self.process(@name)
-      self.read_yaml(File.join(base, '_layouts'), 'tag_index.html')
-      self.data['tag'] = tag
-      tag_title_prefix = site.config['tag_title_prefix'] || 'Tagged: '
-      tag_title_suffix = site.config['tag_title_suffix'] || '&amp;#8211;'
-      self.data['title'] = &quot;#{tag_title_prefix}#{tag}&quot;
-      self.data['description'] = &quot;An archive of posts tagged #{tag}.&quot;
-    end
-  end
-end</code></pre></div>
-
-<h3>Standard Code Block</h3>
-<div class="highlight"><pre><code class="language-text" data-lang="text">&lt;nav class=&quot;pagination&quot; role=&quot;navigation&quot;&gt;
-    {% if page.previous %}
-        &lt;a href=&quot;{{ site.url }}{{ page.previous.url }}&quot; class=&quot;btn&quot; title=&quot;{{ page.previous.title }}&quot;&gt;Previous article&lt;/a&gt;
-    {% endif %}
-    {% if page.next %}
-        &lt;a href=&quot;{{ site.url }}{{ page.next.url }}&quot; class=&quot;btn&quot; title=&quot;{{ page.next.title }}&quot;&gt;Next article&lt;/a&gt;
-    {% endif %}
-&lt;/nav&gt;&lt;!-- /.pagination --&gt;
-</code></pre></div>
-<h3>Fenced Code Blocks</h3>
-
-<p>To modify styling and highlight colors edit <code>/_sass/_coderay.scss</code>. Line numbers and a few other things can be modified in <code>_config.yml</code>. Consult <a href="http://jekyllrb.com/docs/configuration/">Jekyll&#39;s documentation</a> for more information.</p>
-<div class="highlight"><pre><code class="language-css" data-lang="css">#container {
-    float: left;
-    margin: 0 -240px 0 0;
-    width: 100%;
-}
-</code></pre></div><div class="highlight"><pre><code class="language-html" data-lang="html">&lt;nav class=&quot;pagination&quot; role=&quot;navigation&quot;&gt;
-    {% if page.previous %}
-        &lt;a href=&quot;{{ site.url }}{{ page.previous.url }}&quot; class=&quot;btn&quot; title=&quot;{{ page.previous.title }}&quot;&gt;Previous article&lt;/a&gt;
-    {% endif %}
-    {% if page.next %}
-        &lt;a href=&quot;{{ site.url }}{{ page.next.url }}&quot; class=&quot;btn&quot; title=&quot;{{ page.next.title }}&quot;&gt;Next article&lt;/a&gt;
-    {% endif %}
-&lt;/nav&gt;&lt;!-- /.pagination --&gt;
-</code></pre></div><div class="highlight"><pre><code class="language-ruby" data-lang="ruby">module Jekyll
-  class TagIndex &lt; Page
-    def initialize(site, base, dir, tag)
-      @site = site
-      @base = base
-      @dir = dir
-      @name = 'index.html'
-      self.process(@name)
-      self.read_yaml(File.join(base, '_layouts'), 'tag_index.html')
-      self.data['tag'] = tag
-      tag_title_prefix = site.config['tag_title_prefix'] || 'Tagged: '
-      tag_title_suffix = site.config['tag_title_suffix'] || '&amp;#8211;'
-      self.data['title'] = &quot;#{tag_title_prefix}#{tag}&quot;
-      self.data['description'] = &quot;An archive of posts tagged #{tag}.&quot;
-    end
-  end
-end
-</code></pre></div>
-<h3>GitHub Gist Embed</h3>
-
-<p>An example of a Gist embed below.</p>
-
-<script src="https://gist.github.com/mmistakes/6589546.js"> </script>
-
+          <div class="paragraph">
+<p>Often during times of extreme workloads this little project management technique can work wonders for your dev team that is faced with too many project deadlines or too much scope creep.</p>
+</div>
+<div class="paragraph">
+<p>Try using this script when dealing with project owners.</p>
+</div>
+<div class="quoteblock">
+<blockquote>
+<div class="paragraph">
+<p>You said your top priority was the ABC project.</p>
+</div>
+<div class="paragraph">
+<p>Now you say your top priority is this new XYZ project.</p>
+</div>
+<div class="paragraph">
+<p>So we are going to <em>stop</em> work on the old ABC project and start work on the new XYZ one. Is that really what you want?</p>
+</div>
+<div class="paragraph">
+<p>Okay then the old ABC project is not going to get done by 'end of quarter' [insert former completion goal date here]</p>
+</div>
+</blockquote>
+</div>
+<div class="paragraph">
+<p>The concept is to get the project owner to pick their top priority and acknowledge that their choice of shifting priorities or adding to the scope of the project has just pushed the former completion goal date into the future.</p>
+</div>
+<div class="paragraph">
+<p>This gives the project owner an opportunity to re-evaluate their top priority on the spot.</p>
+</div>
+<div class="paragraph">
+<p>And it can be a quick, informal conversation that works just like the formal process of making them sign off on project changes.</p>
+</div>
+<div class="paragraph">
+<p>Either way it gives the development team the reaffirmation that they are working on the project owner&#8217;s top priority.</p>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-tip" title="Tip"></i>
+</td>
+<td class="content">
+This is very important from a team morale standpoint because the dev team now knows they no longer should be working on the old ABC project at this time. And that the project owner just acknowledged that <em>they</em> just pushed back the deadline for the old ABC project.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>Later if the project owner complains that the original deadline for old ABC project goes past, you can list <em>their</em> choice to move the dev team on to the XYZ project which moved the deadline.<br>
+You just have to keep track of their choices and how long it takes to accomplish them. Of course YMMV (your mileage may vary) in the business world, but at least you have a strong, written justification of what happened.</p>
+</div>
+<div class="paragraph">
+<p>Also each time you meet with that project owner, you start by asking: <em>'We are still working on the new XYZ project, is that still your top priority?'</em></p>
+</div>
+<div class="paragraph">
+<p>Then you can go on to talk about any new projects and finish the meeting with <em>'Okay we&#8217;ll put today&#8217;s discussion of changes in the backlog and keep working on the new XYZ project'.</em></p>
+</div>
         </section>
         <footer class="post-footer">
           <section class="share">
             
               
-                <a class="icon-twitter" href="http://twitter.com/share?text=Syntax+Highlighting+Post&amp;url=http://tedbergeron.github.io/2013/08/16/code-highlighting-post"
+                <a class="icon-twitter" href="http://twitter.com/share?text=Shifting+Priorities%2C+Pick+One&amp;url=http://tedbergeron.github.io/2015/07/13/Shifting-Priorities-Pick-One"
                   onclick="window.open(this.href, 'twitter-share', 'width=550,height=255');return false;">
                 <i class="fa fa-twitter"></i><span class="hidden">twitter</span>
                 </a>
@@ -173,7 +140,7 @@ end
               <h4>Ted Bergeron</h4>
               <p class="bio"></p>
               <hr>
-              <p class="published">Published <time datetime="2013-08-16 00:00">16 Aug 2013</time></p>
+              <p class="published">Published <time datetime="2015-07-13 00:00">13 Jul 2015</time></p>
             </section>
           </div>
           
