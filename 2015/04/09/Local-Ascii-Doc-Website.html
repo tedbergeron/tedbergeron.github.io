@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>Local AsciiDoc Website</title>
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <meta name="description" content="">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Local AsciiDoc Website">
+    <meta name="twitter:description" content="">
+
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Local AsciiDoc Website">
+    <meta property="og:description" content="">
+
+    <!-- <meta name="twitter:site" content="">
+
+<meta name="twitter:creator" content="">
+
+<meta name="google-site-verification" content="">
+
+<meta property="fb:admins" content="">
+ -->
+
+    <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <link href="/apple-touch-icon-precomposed.png" rel="apple-touch-icon">
+
+    <link href="//fonts.googleapis.com/" rel="dns-prefetch">
+    <link href="//fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic|Open+Sans:700,400&subset=latin,latin-ext" rel="stylesheet">
+
+    <link rel="stylesheet" href="//tedbergeron.github.io/themes/ghostium/assets/css/main.min.css?v=1471897149500"/>
+    <link rel="stylesheet" href="//tedbergeron.github.io/themes/ghostium/assets/css/custom.css?v=1471897149500"/>
+    <link rel="stylesheet" href="//tedbergeron.github.io/themes/ghostium/assets/css/asciidoctor-foundation.css?v=1471897149500"/>
+
+
+
+
+    <script type="text/javascript">
+      var ga_ua = 'UA-XXXXX-X';
+      
+      var disqus_shortname = 'example';
+      
+      var enable_pjax = true;
+
+      // Pace Options
+      // ==============
+      window.paceOptions = {
+        catchupTime: 100,
+        minTime: 100,
+        elements: false,
+        restartOnRequestAfter: 500,
+        startOnPageLoad: false
+      }
+
+      // Ghostium Globals
+      // ==============
+      window.GHOSTIUM = {};
+      GHOSTIUM.haveGA = typeof ga_ua !== 'undefined' && ga_ua !== 'UA-XXXXX-X';
+      GHOSTIUM.haveDisqus = typeof disqus_shortname !== 'undefined' && disqus_shortname !== 'example';
+      GHOSTIUM.enablePjax = typeof enable_pjax !== 'undefined' ? enable_pjax : true;
+    </script>
+
+    <script src="//tedbergeron.github.io/themes/ghostium/assets/js/head-scripts.min.js?v=1471897149500"></script>
+
+    <link rel="canonical" href="https://tedbergeron.github.io/2015/04/09/Local-Ascii-Doc-Website.html" />
+    <meta name="referrer" content="origin" />
+    
+    <meta property="og:site_name" content="Ted Bergeron " />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Local AsciiDoc Website" />
+    <meta property="og:description" content="In my last post I briefly mentioned how you could make a local website out of your docs using only A text editor, like Notepad A browser extension in Chrome Asciidoctor.js Live Preview And some AsciiDoc links I have a lot of documentation that I update and refer to" />
+    <meta property="og:url" content="https://tedbergeron.github.io/2015/04/09/Local-Ascii-Doc-Website.html" />
+    <meta property="article:tag" content="Asciidoctor" />
+    
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Local AsciiDoc Website" />
+    <meta name="twitter:description" content="In my last post I briefly mentioned how you could make a local website out of your docs using only A text editor, like Notepad A browser extension in Chrome Asciidoctor.js Live Preview And some AsciiDoc links I have a lot of documentation that I update and refer to" />
+    <meta name="twitter:url" content="https://tedbergeron.github.io/2015/04/09/Local-Ascii-Doc-Website.html" />
+    
+    <script type="application/ld+json">
+null
+    </script>
+
+    <meta name="generator" content="HubPress" />
+    <link rel="alternate" type="application/rss+xml" title="Ted Bergeron " href="https://tedbergeron.github.io/rss/" />
+  </head>
+  <body class="post-template tag-Asciidoctor">
+
+    <button data-action="open-drawer" id="drawer-button" class="drawer-button"><i class="fa fa-bars"></i></button>
+    <nav tabindex="-1" class="drawer">
+      <div class="drawer-container">
+        <!--.drawer-search(role="search")-->
+        <ul role="navigation" class="drawer-list">
+          
+          <li class="drawer-list-item">
+            <a href="https://tedbergeron.github.io" data-pjax>
+              <i class="fa fa-home"></i>Home
+            </a>
+          </li>
+          <!-- <li class="drawer-list-item">
+            <a href="https://tedbergeron.github.io" title="Ted Bergeron " data-pjax>
+              <i class="fa fa-list-alt"></i>All posts
+            </a>
+          </li> -->
+          <li class="drawer-list-item">
+            <a href="https://tedbergeron.github.io/rss/">
+              <i class="fa fa-rss"></i>Subscribe to Feed
+            </a>
+          </li>
+          <li class="drawer-list-divider"></li>
+          <li class="drawer-list-item drawer-list-title">
+            Follow me
+          </li>
+          
+          
+          <li class="drawer-list-item">
+            <a href="TedAtCIS" title="Twitter" target="_blank">
+              <i class="fa fa-twitter"></i>Twitter
+            </a>
+          </li>
+          <li class="drawer-list-item">
+            <a href="tedbergeron" title="Github" target="_blank">
+              <i class="fa fa-github"></i>Github
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="drawer-overlay"></div>
+    <main id="container" role="main" class="container">
+      <div class="surface">
+        <div class="surface-container">
+          <div data-pjax-container class="content">
+            
+<section class="wrapper wrapper-post">
+  <div class="wrapper-container">
+    <article itemscope itemtype="http://schema.org/BlogPosting" role="article" class="post post tag-Asciidoctor">
+        <section class="post-container">
+          <header class="post-header">
+            <ul class="post-meta-list">
+              <li class="post-meta-item">
+                <time datetime="2015-04-09" itemprop="datePublished">
+                  a year ago
+                </time>
+              </li>
+                <li class="post-meta-item">
+                  <span class="tags"><i class="fa fa-tags"></i>
+                      <span>
+                      <a href="https://tedbergeron.github.io/tag/Asciidoctor/">Asciidoctor</a></span>
+                  </span>
+                </li>
+              <li class="post-meta-item">
+                <a href="#disqus_thread" data-disqus-identifier="">Comments</a>
+              </li>
+            </ul>
+            <h1 itemprop="name headline" class="post-title"><a href="https://tedbergeron.github.io/2015/04/09/Local-Ascii-Doc-Website.html" itemprop="url" data-pjax title="Local AsciiDoc Website">Local AsciiDoc Website</a></h1>
+            <!--h2 itemprop="about" class="post-subtitle"></h2-->
+          </header>
+          <aside class="post-side">
+            <div class="post-author">
+                <a href="http://tedbergeron.github.io/" class="post-author-avatar">
+                  <img src="https://avatars.githubusercontent.com/u/6181547?v&#x3D;3" alt="Ted Bergeron">
+                </a>
+              <div class="post-author-info">
+                <a href="http://tedbergeron.github.io/" class="post-author-name">
+                  Ted Bergeron
+                </a>
+                <p class="post-author-bio">A web developer since 1994. Interested in Asciidoctor and Federated Wiki as tools for documenting and building community.</p>
+              </div>
+            </div>
+          </aside>
+          <div itemprop="articleBody" class="post-body">
+            <div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>In my <a href="http://tedbergeron.github.io/2015/03/29/Atom-Editor-AsciiDoc.html">last post</a> I briefly mentioned how you could make a local website out of your docs using only</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>A text editor, like Notepad</p>
+</li>
+<li>
+<p>A browser extension in Chrome <a href="https://chrome.google.com/webstore/detail/asciidoctorjs-live-previe/iaalpfgpbocpdfblpnhhgllgbdbchmia?hl=en-US">Asciidoctor.js Live Preview</a></p>
+</li>
+<li>
+<p>And some AsciiDoc links</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>I have a lot of documentation that I update and refer to everyday. It is marked up with AsciiDoc. I find the best way to work with it is to organize all my docs and link them together into a mini-website on my laptop.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_templates_to_get_you_started">Templates to get you started</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>To get you started, I&#8217;ve created a few docs and linked them together so you can quickly see how this works.</p>
+</div>
+<div class="paragraph">
+<p>Start by cloning this repo:  <a href="https://github.com/tedbergeron/Asciidoctor-LivePreview-Website">Asciidoctor-LivePreview-Website</a></p>
+</div>
+<div class="paragraph">
+<p>You can just download the .ZIP and place the files together in a directory.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_asciidoctor_js_live_preview">Asciidoctor.js Live Preview</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Install the Asciidoctor.js Live Preview in your browser if you don&#8217;t already have it</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Chrome: <a href="https://chrome.google.com/webstore/detail/asciidoctorjs-live-previe/iaalpfgpbocpdfblpnhhgllgbdbchmia?hl=en-US">Asciidoctor.js Live Preview</a></p>
+</li>
+<li>
+<p>Firefox: <a href="https://addons.mozilla.org/en-us/firefox/addon/asciidoctorjs-live-preview/?src=search">Asciidoctor.js Live Preview</a> (not as full-featured as Chrome one yet)</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Set the options for it</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Safe mode: <em>unsafe</em></p>
+</li>
+<li>
+<p>Preview .txt files: <span class="icon black"><i class="fa fa-check"></i></span> <em>(so you can use these .txt files in addition to .adoc files)</em></p>
+</li>
+<li>
+<p>Click save.</p>
+</li>
+</ul>
+</div>
+<div class="admonitionblock warning">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-warning" title="Warning"></i>
+</td>
+<td class="content">
+If you are using Firefox change all your file extensions to .adoc because there&#8217;s no option to use .txt at this time.
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_open_the_index_txt_in_your_browser">Open the index.txt in your browser</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Find the directory where you copied the text files from the <a href="https://github.com/tedbergeron/Asciidoctor-LivePreview-Website">Asciidoctor-LivePreview-Website</a> repo.</p>
+</div>
+<div class="paragraph">
+<p>Right-click on index.txt and open with Chrome.</p>
+</div>
+<div class="paragraph">
+<p>You should see it open and render like a mini-website. Click around and test it out.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_start_editing_it">Start Editing it.</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>When you take look at the text files you&#8217;ll notice that the index.txt file has</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-AsciiDoc" data-lang="AsciiDoc"> include::header.txt[]
+
+ include::footer.txt[]</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>You can use those in all your docs to create a navigation menu at the top and a mini-sitemap at the bottom. You&#8217;ll find header.txt and footer.txt in the repository. I&#8217;ve used AsciiDoc tables to make the columns.</p>
+</div>
+<div class="paragraph">
+<p>Or leave them off and just add a link back to the index.txt page</p>
+</div>
+<div class="paragraph">
+<p>I usually edit in one window on the left and preview the changes in Chrome on the right.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_linking_your_docs_together">Linking your docs together</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The main AsciiDoc code you&#8217;ll need to hook your docs together is link. It&#8217;s pretty straight forward to use. It looks like this:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-AsciiDoc" data-lang="AsciiDoc">link:AnotherDocument.txt[Another Document]</code></pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_bookmark_your_index_txt_file">Bookmark your index.txt file</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Don&#8217;t forget to bookmark your main doc. If index.txt seems too 'WebDev' like, you might want to name it README.txt. Then write links to all your other docs creating a simple website.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_not_quite_a_wiki">Not quite a wiki</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>It is not the same as a wiki but it is so simple to edit you might think it&#8217;s better than a wiki. Store your files in a repository and you&#8217;ll even have the history of changes you make.</p>
+</div>
+<div class="paragraph">
+<p>You could build an intranet site on your network using this concept.</p>
+</div>
+</div>
+</div>
+          </div>
+          <footer class="post-footer">
+            <div itemprop="author" itemscope itemtype="http://schema.org/Person" class="post-author">
+                <a href="http://tedbergeron.github.io/" class="post-author-avatar">
+                  <img itemprop="image" src="https://avatars.githubusercontent.com/u/6181547?v&#x3D;3" alt="Ted Bergeron">
+                </a>
+              <div class="post-author-info">
+                <h4 class="post-footer-heading">Written By</h4>
+                <a href="http://tedbergeron.github.io/" itemprop="url" class="post-author-name">
+                  <span itemprop="name">Ted Bergeron</span>
+                </a>
+                <p itemprop="description" class="post-author-bio">A web developer since 1994. Interested in Asciidoctor and Federated Wiki as tools for documenting and building community.</p>
+                  <p class="post-author-location">Salem, Oregon</p>
+                  <p class="post-author-website">
+                    <a href="http://tedbergeron.github.io/" rel="nofollow">http://tedbergeron.github.io/</a>
+                  </p>
+                <p class="post-info">
+                  <b class="post-info-title">Published on</b>
+                  <time class="post-date">April 09, 2015</time>
+                </p>
+              </div>
+            </div>
+            <div class="post-social">
+              <h4 class="post-footer-heading">Spread the word</h4>
+              <a href="#" data-action="share-twitter"><i class="fa fa-fw fa-lg fa-twitter"></i></a>
+              <a href="#" data-action="share-facebook"><i class="fa fa-fw fa-lg fa-facebook"></i></a>
+              <a href="#" data-action="share-gplus"><i class="fa fa-fw fa-lg fa-google-plus"></i></a>
+            </div>
+          </footer>
+        </section>
+      <section itemprop="comment" class="post-comments">
+        <div id="disqus_thread"></div>
+      </section>
+    </article>
+
+    <footer role="contentinfo" class="footer">
+      <p><small>Copyright &copy; <span itemprop="copyrightHolder">Ted Bergeron </span>. 2016. All Rights Reserved.</small></p>
+      <p><small><a href="http://ghostium.oswaldoacauan.com/" target="_blank">Ghostium Theme</a> by <a href="http://twitter.com/oswaldoacauan" target="_blank">@oswaldoacauan</a></small></p>
+      <p><small>Adapted by <a href="https://twitter.com/mgreau">Maxime Gréau</a></small></p>
+      <p><small>Published with <a href="http://hubpress.io">HubPress</a></small></p>
+    </footer>
+  </div>
+</section>
+
+
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js?v="></script> <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment-with-locales.min.js?v="></script> <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js?v="></script> 
+      <script type="text/javascript">
+        jQuery( document ).ready(function() {
+          // change date with ago
+          jQuery('ago.ago').each(function(){
+            var element = jQuery(this).parent();
+            element.html( moment(element.text()).fromNow());
+          });
+        });
+
+        hljs.initHighlightingOnLoad();
+      </script>
+
+    <script src="//tedbergeron.github.io/themes/ghostium/assets/js/foot-scripts.min.js?v=1471897149500"></script>
+
+
+  </body>
+</html>
