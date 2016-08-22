@@ -1,10 +1,5 @@
----
-layout: post
-title: "Local AsciiDoc Website"
-excerpt: "Use ..."
-tags: [AsciiDoc, Asciidoctor]
-comments: true
----
+= Local AsciiDoc Website
+:hp-tags: Asciidoctor
 
 In my link:http://tedbergeron.github.io/2015/03/29/Atom-Editor-AsciiDoc.html[last post] I briefly mentioned how you could make a local website out of your docs using only
 
