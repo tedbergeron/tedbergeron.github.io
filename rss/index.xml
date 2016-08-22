@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Ted Bergeron ]]></title><description><![CDATA[a blog about tech]]></description><link>https://tedbergeron.github.io</link><generator>RSS for Node</generator><lastBuildDate>Mon, 22 Aug 2016 20:28:35 GMT</lastBuildDate><atom:link href="https://tedbergeron.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[How to build a website with Asciidoctor]]></title><description><![CDATA[<div id="preamble">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Ted Bergeron ]]></title><description><![CDATA[a blog about tech]]></description><link>https://tedbergeron.github.io</link><generator>RSS for Node</generator><lastBuildDate>Mon, 22 Aug 2016 20:31:07 GMT</lastBuildDate><atom:link href="https://tedbergeron.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[How to build a website with Asciidoctor]]></title><description><![CDATA[<div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
 <p>Take a look at this demo of website I made <em>only using Asciidoctor</em> and with <strong>one command</strong>. <a href="http://tedbergeron.github.io/SiteMadeWithAsciidoctor/" class="bare">http://tedbergeron.github.io/SiteMadeWithAsciidoctor/</a></p>
@@ -606,4 +606,25 @@ set-prop to whatever id number your touchpad is. I believe the 1 at the end mean
 </div>
 <div class="paragraph">
 <p>I don&#8217;t know if there is a permanently way to restore the trackpad. I&#8217;m sure there is a setting somewhere. Of course I could create a new user.</p>
-</div>]]></description><link>https://tedbergeron.github.io/2015/02/05/Turn-KDE-Trackpad-Off.html</link><guid isPermaLink="true">https://tedbergeron.github.io/2015/02/05/Turn-KDE-Trackpad-Off.html</guid><category><![CDATA[Dell]]></category><category><![CDATA[ Trackpad]]></category><category><![CDATA[ Slackware]]></category><category><![CDATA[ KDE]]></category><dc:creator><![CDATA[Ted Bergeron]]></dc:creator><pubDate>Thu, 05 Feb 2015 00:00:00 GMT</pubDate></item></channel></rss>
+</div>]]></description><link>https://tedbergeron.github.io/2015/02/05/Turn-KDE-Trackpad-Off.html</link><guid isPermaLink="true">https://tedbergeron.github.io/2015/02/05/Turn-KDE-Trackpad-Off.html</guid><category><![CDATA[Dell]]></category><category><![CDATA[ Trackpad]]></category><category><![CDATA[ Slackware]]></category><category><![CDATA[ KDE]]></category><dc:creator><![CDATA[Ted Bergeron]]></dc:creator><pubDate>Thu, 05 Feb 2015 00:00:00 GMT</pubDate></item><item><title><![CDATA[Dell Numlock]]></title><description><![CDATA[<div class="paragraph">
+<p>I figured out that to use the NumLock you have to turn it on, And then <strong>press and hold</strong> the Function (Fn) key in order to use the number pad on the keyboard.</p>
+</div>
+<div class="paragraph">
+<p>I have an old Dell Latitude D630. This is the default setting. Another completely unintuitive default setting.</p>
+</div>
+<div class="paragraph">
+<p>This is controlled by BIOS settings. Reboot and press F2 to get into the settings.</p>
+</div>
+<div class="paragraph">
+<p>Find and change these two settings. One to use Numlock only. And another to turn Numlock off when booting.</p>
+</div>
+<div class="quoteblock">
+<blockquote>
+<div class="paragraph">
+<p>I finally figured out how to use the NumLock key on my laptop</p>
+</div>
+</blockquote>
+<div class="attribution">
+&#8212; Ted Bergeron
+</div>
+</div>]]></description><link>https://tedbergeron.github.io/2015/02/03/Dell-Numlock.html</link><guid isPermaLink="true">https://tedbergeron.github.io/2015/02/03/Dell-Numlock.html</guid><category><![CDATA[Dell]]></category><category><![CDATA[ Numlock]]></category><category><![CDATA[ Slackware]]></category><dc:creator><![CDATA[Ted Bergeron]]></dc:creator><pubDate>Tue, 03 Feb 2015 00:00:00 GMT</pubDate></item></channel></rss>
