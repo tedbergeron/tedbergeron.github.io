@@ -1,10 +1,5 @@
----
-layout: post
-title: "Atom Editor for AsciiDoc"
-excerpt: "In my opinion the Atom Editor is the best editor for working with AsciiDoc files. It's free and it works on Linux, Mac and Windows."
-tags: [AtomEditor, AsciiDoc, Asciidoctor]
-comments: true
----
+= Atom Editor for AsciiDoc
+:hp-tags: Atom-Editor, Asciidoctor
 
 == Why AsciiDoc?
 
