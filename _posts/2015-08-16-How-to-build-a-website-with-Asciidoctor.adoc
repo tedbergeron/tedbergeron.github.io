@@ -1,10 +1,5 @@
----
-layout: post
-title: "How to build a website with Asciidoctor"
-excerpt: "Build a website with one command using only Asciidoctor..."
-tags: [featured, AsciiDoc, Asciidoctor]
-comments: true
----
+= How to build a website with Asciidoctor
+:hp-tags: Asciidoctor]
 
 Take a look at this demo of website I made _only using Asciidoctor_ and with *one command*. http://tedbergeron.github.io/SiteMadeWithAsciidoctor/
 
