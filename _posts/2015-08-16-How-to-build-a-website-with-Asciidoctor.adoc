@@ -1,5 +1,5 @@
 = How to build a website with Asciidoctor
-:hp-tags: Asciidoctor]
+:hp-tags: Asciidoctor
 
 Take a look at this demo of website I made _only using Asciidoctor_ and with *one command*. http://tedbergeron.github.io/SiteMadeWithAsciidoctor/
 
