@@ -10,8 +10,8 @@
     "postsPerPage": "10"
   },
   "socialnetwork": {
-    "twitter": "TedAtCIS",
-    "github": "tedbergeron"
+    "twitter": "https://twitter.com/TedAtCIS",
+    "github": "https://github.com/tedbergeron"
   },
   "theme": {
     "name": "ghostium"
