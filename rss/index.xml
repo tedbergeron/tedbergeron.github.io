@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Ted Bergeron ]]></title><description><![CDATA[a blog about tech]]></description><link>https://tedbergeron.github.io</link><generator>RSS for Node</generator><lastBuildDate>Mon, 22 Aug 2016 20:24:48 GMT</lastBuildDate><atom:link href="https://tedbergeron.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[How to build a website with Asciidoctor]]></title><description><![CDATA[<div id="preamble">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Ted Bergeron ]]></title><description><![CDATA[a blog about tech]]></description><link>https://tedbergeron.github.io</link><generator>RSS for Node</generator><lastBuildDate>Mon, 22 Aug 2016 20:28:35 GMT</lastBuildDate><atom:link href="https://tedbergeron.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[How to build a website with Asciidoctor]]></title><description><![CDATA[<div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
 <p>Take a look at this demo of website I made <em>only using Asciidoctor</em> and with <strong>one command</strong>. <a href="http://tedbergeron.github.io/SiteMadeWithAsciidoctor/" class="bare">http://tedbergeron.github.io/SiteMadeWithAsciidoctor/</a></p>
@@ -547,4 +547,63 @@ In my opinion the <a href="https://atom.io/">Atom Editor</a> is the best editor 
 </div>
 <div class="paragraph">
 <p>I don’t like this analogy, but it is pretty true.</p>
-</div>]]></description><link>https://tedbergeron.github.io/2015/02/11/Weve-all-been-warned.html</link><guid isPermaLink="true">https://tedbergeron.github.io/2015/02/11/Weve-all-been-warned.html</guid><category><![CDATA[development]]></category><dc:creator><![CDATA[Ted Bergeron]]></dc:creator><pubDate>Wed, 11 Feb 2015 00:00:00 GMT</pubDate></item></channel></rss>
+</div>]]></description><link>https://tedbergeron.github.io/2015/02/11/Weve-all-been-warned.html</link><guid isPermaLink="true">https://tedbergeron.github.io/2015/02/11/Weve-all-been-warned.html</guid><category><![CDATA[development]]></category><dc:creator><![CDATA[Ted Bergeron]]></dc:creator><pubDate>Wed, 11 Feb 2015 00:00:00 GMT</pubDate></item><item><title><![CDATA[Turn KDE Trackpad Off]]></title><description><![CDATA[<div class="paragraph">
+<p>I use Slackware Linux on a DELL D630 laptop. I never use a mouse and I rely on the trackpad for all my mousing needs.</p>
+</div>
+<div class="paragraph">
+<p>I was trying to adjust the brightness. DELL uses the Function (Fn) key + Up and Down Arrows.</p>
+</div>
+<div class="paragraph">
+<p>I was trying to turn the brightness down and I accidentally pressed: Fn + (auto brightness) Left Arrow which apparently is a KDE keyboard-shortcut to turn off the touchpad permanently.</p>
+</div>
+<div class="paragraph">
+<p>How handy&#8230;&#8203; Not! There is a popup message letting you know the touchpad has been turned off.</p>
+</div>
+<div class="paragraph">
+<p>Now it is only turned off for the user that is logged in. I can&#8217;t find a keyboard shortcut for turning it back on.</p>
+</div>
+<div class="paragraph">
+<p>So now every time I reboot, I have to get out a mouse and search for the trackpad and turn it back on.</p>
+</div>
+<div class="paragraph">
+<p>Here&#8217;s what I have to do now each and every time I reboot. Open a terminal.</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre># xinput list</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>I usually find my touchpad on 11 or 12. It seems to jump around each boot. This is what it looks like</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>AlpsPS/2 DualPoint TouchPad id=12 [slave pointer (2)]</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>So this time it is #12. Next run this command:</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre># xinput set-prop 12 "Device Enabled" 1</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>This immediately restores the trackpad.</p>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-tip" title="Tip"></i>
+</td>
+<td class="content">
+set-prop to whatever id number your touchpad is. I believe the 1 at the end means true.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>I don&#8217;t know if there is a permanently way to restore the trackpad. I&#8217;m sure there is a setting somewhere. Of course I could create a new user.</p>
+</div>]]></description><link>https://tedbergeron.github.io/2015/02/05/Turn-KDE-Trackpad-Off.html</link><guid isPermaLink="true">https://tedbergeron.github.io/2015/02/05/Turn-KDE-Trackpad-Off.html</guid><category><![CDATA[Dell]]></category><category><![CDATA[ Trackpad]]></category><category><![CDATA[ Slackware]]></category><category><![CDATA[ KDE]]></category><dc:creator><![CDATA[Ted Bergeron]]></dc:creator><pubDate>Thu, 05 Feb 2015 00:00:00 GMT</pubDate></item></channel></rss>
