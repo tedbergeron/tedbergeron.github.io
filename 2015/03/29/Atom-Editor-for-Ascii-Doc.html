@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>Atom Editor for AsciiDoc</title>
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <meta name="description" content="">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Atom Editor for AsciiDoc">
+    <meta name="twitter:description" content="">
+
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Atom Editor for AsciiDoc">
+    <meta property="og:description" content="">
+
+    <!-- <meta name="twitter:site" content="">
+
+<meta name="twitter:creator" content="">
+
+<meta name="google-site-verification" content="">
+
+<meta property="fb:admins" content="">
+ -->
+
+    <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <link href="/apple-touch-icon-precomposed.png" rel="apple-touch-icon">
+
+    <link href="//fonts.googleapis.com/" rel="dns-prefetch">
+    <link href="//fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic|Open+Sans:700,400&subset=latin,latin-ext" rel="stylesheet">
+
+    <link rel="stylesheet" href="//tedbergeron.github.io/themes/ghostium/assets/css/main.min.css?v=1471897423536"/>
+    <link rel="stylesheet" href="//tedbergeron.github.io/themes/ghostium/assets/css/custom.css?v=1471897423536"/>
+    <link rel="stylesheet" href="//tedbergeron.github.io/themes/ghostium/assets/css/asciidoctor-foundation.css?v=1471897423536"/>
+
+
+
+
+    <script type="text/javascript">
+      var ga_ua = 'UA-XXXXX-X';
+      
+      var disqus_shortname = 'example';
+      
+      var enable_pjax = true;
+
+      // Pace Options
+      // ==============
+      window.paceOptions = {
+        catchupTime: 100,
+        minTime: 100,
+        elements: false,
+        restartOnRequestAfter: 500,
+        startOnPageLoad: false
+      }
+
+      // Ghostium Globals
+      // ==============
+      window.GHOSTIUM = {};
+      GHOSTIUM.haveGA = typeof ga_ua !== 'undefined' && ga_ua !== 'UA-XXXXX-X';
+      GHOSTIUM.haveDisqus = typeof disqus_shortname !== 'undefined' && disqus_shortname !== 'example';
+      GHOSTIUM.enablePjax = typeof enable_pjax !== 'undefined' ? enable_pjax : true;
+    </script>
+
+    <script src="//tedbergeron.github.io/themes/ghostium/assets/js/head-scripts.min.js?v=1471897423536"></script>
+
+    <link rel="canonical" href="https://tedbergeron.github.io/2015/03/29/Atom-Editor-for-Ascii-Doc.html" />
+    <meta name="referrer" content="origin" />
+    
+    <meta property="og:site_name" content="Ted Bergeron " />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Atom Editor for AsciiDoc" />
+    <meta property="og:description" content="Why AsciiDoc? I&amp;#8217;ve used Markdown for years but last year I heard about AsciiDoc at Write The Docs 2014 conference. Then I quickly discovered Asciidoctor and I&amp;#8217;ve never looked back. AsciiDoc is like a superset of Markdown and since Asciidoctor renders Markdown too,  it was easy" />
+    <meta property="og:url" content="https://tedbergeron.github.io/2015/03/29/Atom-Editor-for-Ascii-Doc.html" />
+    <meta property="article:tag" content="Atom-Editor" />
+    <meta property="article:tag" content=" Asciidoctor" />
+    
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Atom Editor for AsciiDoc" />
+    <meta name="twitter:description" content="Why AsciiDoc? I&amp;#8217;ve used Markdown for years but last year I heard about AsciiDoc at Write The Docs 2014 conference. Then I quickly discovered Asciidoctor and I&amp;#8217;ve never looked back. AsciiDoc is like a superset of Markdown and since Asciidoctor renders Markdown too,  it was easy" />
+    <meta name="twitter:url" content="https://tedbergeron.github.io/2015/03/29/Atom-Editor-for-Ascii-Doc.html" />
+    
+    <script type="application/ld+json">
+null
+    </script>
+
+    <meta name="generator" content="HubPress" />
+    <link rel="alternate" type="application/rss+xml" title="Ted Bergeron " href="https://tedbergeron.github.io/rss/" />
+  </head>
+  <body class="post-template tag-Atom-Editor tag-Asciidoctor">
+
+    <button data-action="open-drawer" id="drawer-button" class="drawer-button"><i class="fa fa-bars"></i></button>
+    <nav tabindex="-1" class="drawer">
+      <div class="drawer-container">
+        <!--.drawer-search(role="search")-->
+        <ul role="navigation" class="drawer-list">
+          
+          <li class="drawer-list-item">
+            <a href="https://tedbergeron.github.io" data-pjax>
+              <i class="fa fa-home"></i>Home
+            </a>
+          </li>
+          <!-- <li class="drawer-list-item">
+            <a href="https://tedbergeron.github.io" title="Ted Bergeron " data-pjax>
+              <i class="fa fa-list-alt"></i>All posts
+            </a>
+          </li> -->
+          <li class="drawer-list-item">
+            <a href="https://tedbergeron.github.io/rss/">
+              <i class="fa fa-rss"></i>Subscribe to Feed
+            </a>
+          </li>
+          <li class="drawer-list-divider"></li>
+          <li class="drawer-list-item drawer-list-title">
+            Follow me
+          </li>
+          
+          
+          <li class="drawer-list-item">
+            <a href="https://twitter.com/TedAtCIS" title="Twitter" target="_blank">
+              <i class="fa fa-twitter"></i>Twitter
+            </a>
+          </li>
+          <li class="drawer-list-item">
+            <a href="https://github.com/tedbergeron" title="Github" target="_blank">
+              <i class="fa fa-github"></i>Github
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="drawer-overlay"></div>
+    <main id="container" role="main" class="container">
+      <div class="surface">
+        <div class="surface-container">
+          <div data-pjax-container class="content">
+            
+<section class="wrapper wrapper-post">
+  <div class="wrapper-container">
+    <article itemscope itemtype="http://schema.org/BlogPosting" role="article" class="post post tag-Atom-Editor tag-Asciidoctor">
+        <section class="post-container">
+          <header class="post-header">
+            <ul class="post-meta-list">
+              <li class="post-meta-item">
+                <time datetime="2015-03-29" itemprop="datePublished">
+                  a year ago
+                </time>
+              </li>
+                <li class="post-meta-item">
+                  <span class="tags"><i class="fa fa-tags"></i>
+                      <span>
+                      <a href="https://tedbergeron.github.io/tag/Atom-Editor/">Atom-Editor</a>, <a href="https://tedbergeron.github.io/tag/Asciidoctor/"> Asciidoctor</a></span>
+                  </span>
+                </li>
+              <li class="post-meta-item">
+                <a href="#disqus_thread" data-disqus-identifier="">Comments</a>
+              </li>
+            </ul>
+            <h1 itemprop="name headline" class="post-title"><a href="https://tedbergeron.github.io/2015/03/29/Atom-Editor-for-Ascii-Doc.html" itemprop="url" data-pjax title="Atom Editor for AsciiDoc">Atom Editor for AsciiDoc</a></h1>
+            <!--h2 itemprop="about" class="post-subtitle"></h2-->
+          </header>
+          <aside class="post-side">
+            <div class="post-author">
+                <a href="http://tedbergeron.github.io/" class="post-author-avatar">
+                  <img src="https://avatars.githubusercontent.com/u/6181547?v&#x3D;3" alt="Ted Bergeron">
+                </a>
+              <div class="post-author-info">
+                <a href="http://tedbergeron.github.io/" class="post-author-name">
+                  Ted Bergeron
+                </a>
+                <p class="post-author-bio">A web developer since 1994. Interested in Asciidoctor and Federated Wiki as tools for documenting and building community.</p>
+              </div>
+            </div>
+          </aside>
+          <div itemprop="articleBody" class="post-body">
+            <div class="sect1">
+<h2 id="_why_asciidoc">Why AsciiDoc?</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>I&#8217;ve used Markdown for years but last year I heard about AsciiDoc at <a href="http://www.writethedocs.org/">Write The Docs</a> 2014 conference. Then I quickly discovered <a href="http://asciidoctor.org/">Asciidoctor</a> and I&#8217;ve never looked back.</p>
+</div>
+<div class="paragraph">
+<p>AsciiDoc is like a superset of Markdown and since Asciidoctor renders Markdown too,  it was easy for me to just start using AsciiDoc.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_fast_start_with_asciidoc">Fast Start with AsciiDoc</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>I think the fastest way to get started is to install the <a href="https://chrome.google.com/webstore/detail/asciidoctorjs-live-previe/iaalpfgpbocpdfblpnhhgllgbdbchmia?hl=en-US">Asciidoctor.js Live Preview</a> extension for Chrome.</p>
+</div>
+<div class="paragraph">
+<p>Set the options for it</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Safe mode: unsafe <em>(because you&#8217;ll want to do all the cool stuff with it)</em></p>
+</li>
+<li>
+<p>Preview .txt files: <span class="icon black"><i class="fa fa-check"></i></span> <em>(so you can use .txt in addition to .adoc)</em></p>
+</li>
+<li>
+<p>Theme / Stylesheet: <em>(colony or maker are my favorites)</em></p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Click save.</p>
+</div>
+<div class="paragraph">
+<p>Open your favorite text editor and start writng. Format your doc with AsciiDoc. Here&#8217;s some links to get you started with the syntax:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><span class="icon yellow"><i class="fa fa-star"></i></span> <a href="http://powerman.name/doc/asciidoc">AsciiDoc cheatsheet</a></p>
+</li>
+<li>
+<p><span class="icon yellow"><i class="fa fa-star"></i></span> <a href="http://asciidoctor.org/docs/asciidoc-syntax-quick-reference/">Asciidoctor Syntax Quick Reference</a></p>
+</li>
+<li>
+<p><span class="icon yellow"><i class="fa fa-star"></i></span> <a href="http://asciidoctor.org/docs/user-manual/#doc-header">Asciidoctor User Manual: syntax</a></p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Open your text file in Chrome to start previewing it. <strong>Have your text editor open right next to Chrome</strong> so you have a side-by-side editor|viewer. Each time you save you&#8217;ll see your changes rendered in Chrome.</p>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-tip" title="Tip"></i>
+</td>
+<td class="content">
+<strong>Pro Tip:</strong> Bookmark your AsciiDoc text file. Then write links to all your other docs creating a simple wiki or intranet site on your computer; powered by this browser extension and a text editor.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p><a href="https://addons.mozilla.org/en-us/firefox/addon/asciidoctorjs-live-preview/?src=search">Asciidoctor.js Live Preview</a> is also available for Firefox but it is not as mature as the Chrome version as of the time of this writing. But I&#8217;m sure it will catch up quickly.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_atom_editor_span_class_icon_i_class_fa_fa_github_alt_i_span">Atom Editor <span class="icon"><i class="fa fa-github-alt"></i></span></h2>
+<div class="sectionbody">
+<div class="quoteblock">
+<blockquote>
+In my opinion the <a href="https://atom.io/">Atom Editor</a> is the best editor for working with AsciiDoc files. It&#8217;s free and it works on Linux, Mac and Windows.
+</blockquote>
+<div class="attribution">
+&#8212; Ted Bergeron
+</div>
+</div>
+<div class="paragraph">
+<p>You&#8217;ll need these two packages for the <a href="https://atom.io/">Atom Editor</a> to make working with AsciiDoc a dream. Go to File &gt; Settings &gt; Install. Search for 'AsciiDoc'. Both of these are by 'asciidoctor'</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>language-asciidoc</strong> <span class="icon green"><i class="fa fa-check"></i></span></p>
+</li>
+<li>
+<p><strong>asciidoc-preview</strong> <span class="icon green"><i class="fa fa-check"></i></span></p>
+</li>
+</ul>
+</div>
+<div class="sect2">
+<h3 id="_language_asciidoc_for_syntax_highlighting">language-asciidoc for syntax highlighting</h3>
+<div class="paragraph">
+<p>This package gives you beautiful syntax highlighting for AsciiDoc files. It automatically detects .adoc files. But I use .txt files. To get the syntax highlighting to lightup, click the Plain Text in the lower right-hand status bar and select AsciiDoc from the drop-down.</p>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-tip" title="Tip"></i>
+</td>
+<td class="content">
+<strong>Using .txt</strong> First your spell checker is going to work. Secondly I think it is an advantage to use .txt files in the repository so after I&#8217;m long gone, anyone can still open the files and work with them; even if they&#8217;ve never heard of AsciiDoc formatting. Although it would be a simple command to change file extentions from .adoc back to .txt.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>Experiment with different Atom themes to find syntax colors that work best for you.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_asciidoc_preview_for_live_previewing">asciidoc-preview for live previewing</h3>
+<div class="paragraph">
+<p>The asciidoc-preview package gives you the perfect side-by-side editor|viewer for working with your text files.</p>
+</div>
+<div class="paragraph">
+<div class="title">Toggle Preview (Ctrl+Shift+A)</div>
+<p>To toggle the preview window use Packages &gt; AsciiDoc &gt; Toggle Preview (Ctrl+Shift+A)</p>
+</div>
+<div class="paragraph">
+<div class="title">Toggle Soft Wrap</div>
+<p>You might also want to use menu View &gt; Toggle Soft Wrap so you can see all your text in the editor pane. You can toggle it on by default in File &gt; Settings &gt; Editor Settings &gt; Soft Wrap.</p>
+</div>
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-important" title="Important"></i>
+</td>
+<td class="content">
+<strong>Windows Version:</strong> If the AsciiDoc Toggle Preview (Ctrl+Shift+A) has stopped working in Windows version of Atom Editor. Find menu File &gt; Open Your Keymap. It will likely be a empty file. Add this code and save it:
+</td>
+</tr>
+</table>
+</div>
+<div class="listingblock">
+<div class="title">keymap file</div>
+<div class="content">
+<pre class="highlight"><code class="language-cson" data-lang="cson">'atom-workspace, atom-workspace atom-text-editor':
+  'ctrl-shift-a': 'asciidoc-preview:toggle'
+  'ctrl-alt-a': 'asciidoc-preview:toggle-render-on-save-only'</code></pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_line_ending_converter_for_windows">line-ending-converter for Windows</h3>
+<div class="paragraph">
+<p>When you open text files that have been edited with Atom in Notepad you might find it only has line-feeds ("\n") and no Windows carriage returns ("\r\n"). There is another package to convert line endings called <strong>line-ending-converter</strong></p>
+</div>
+<div class="paragraph">
+<p>Use menu Packages &gt; Convert Line Endings To &gt; Windows Format</p>
+</div>
+<div class="paragraph">
+<p>and save.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_other_editors">Other Editors?</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Of course there are other editors that handle AsciiDoc as well. Brackets has a previewer. Vim, Sublime Text and NotePad++ have syntax highlighting. But I&#8217;ll stick with Atom. It works on my Windows and Linux machines.</p>
+</div>
+</div>
+</div>
+          </div>
+          <footer class="post-footer">
+            <div itemprop="author" itemscope itemtype="http://schema.org/Person" class="post-author">
+                <a href="http://tedbergeron.github.io/" class="post-author-avatar">
+                  <img itemprop="image" src="https://avatars.githubusercontent.com/u/6181547?v&#x3D;3" alt="Ted Bergeron">
+                </a>
+              <div class="post-author-info">
+                <h4 class="post-footer-heading">Written By</h4>
+                <a href="http://tedbergeron.github.io/" itemprop="url" class="post-author-name">
+                  <span itemprop="name">Ted Bergeron</span>
+                </a>
+                <p itemprop="description" class="post-author-bio">A web developer since 1994. Interested in Asciidoctor and Federated Wiki as tools for documenting and building community.</p>
+                  <p class="post-author-location">Salem, Oregon</p>
+                  <p class="post-author-website">
+                    <a href="http://tedbergeron.github.io/" rel="nofollow">http://tedbergeron.github.io/</a>
+                  </p>
+                <p class="post-info">
+                  <b class="post-info-title">Published on</b>
+                  <time class="post-date">March 29, 2015</time>
+                </p>
+              </div>
+            </div>
+            <div class="post-social">
+              <h4 class="post-footer-heading">Spread the word</h4>
+              <a href="#" data-action="share-twitter"><i class="fa fa-fw fa-lg fa-twitter"></i></a>
+              <a href="#" data-action="share-facebook"><i class="fa fa-fw fa-lg fa-facebook"></i></a>
+              <a href="#" data-action="share-gplus"><i class="fa fa-fw fa-lg fa-google-plus"></i></a>
+            </div>
+          </footer>
+        </section>
+      <section itemprop="comment" class="post-comments">
+        <div id="disqus_thread"></div>
+      </section>
+    </article>
+
+    <footer role="contentinfo" class="footer">
+      <p><small>Copyright &copy; <span itemprop="copyrightHolder">Ted Bergeron </span>. 2016. All Rights Reserved.</small></p>
+      <p><small><a href="http://ghostium.oswaldoacauan.com/" target="_blank">Ghostium Theme</a> by <a href="http://twitter.com/oswaldoacauan" target="_blank">@oswaldoacauan</a></small></p>
+      <p><small>Adapted by <a href="https://twitter.com/mgreau">Maxime Gréau</a></small></p>
+      <p><small>Published with <a href="http://hubpress.io">HubPress</a></small></p>
+    </footer>
+  </div>
+</section>
+
+
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js?v="></script> <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment-with-locales.min.js?v="></script> <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js?v="></script> 
+      <script type="text/javascript">
+        jQuery( document ).ready(function() {
+          // change date with ago
+          jQuery('ago.ago').each(function(){
+            var element = jQuery(this).parent();
+            element.html( moment(element.text()).fromNow());
+          });
+        });
+
+        hljs.initHighlightingOnLoad();
+      </script>
+
+    <script src="//tedbergeron.github.io/themes/ghostium/assets/js/foot-scripts.min.js?v=1471897423536"></script>
+
+
+  </body>
+</html>
