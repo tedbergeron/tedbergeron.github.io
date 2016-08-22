@@ -1,12 +1,5 @@
----
-layout: post
-title: "Turn KDE Trackpad Off"
-excerpt: ""
-tags: [Dell, Trackpad, Slackware, KDE]
-comments: true
----
-
 = Turn KDE Trackpad Off
+:hp-tags: Dell, Trackpad, Slackware, KDE
 
 I use Slackware Linux on a DELL D630 laptop. I never use a mouse and I rely on the trackpad for all my mousing needs.
 
