@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Ted Bergeron ]]></title><description><![CDATA[a blog about tech]]></description><link>https://tedbergeron.github.io</link><generator>RSS for Node</generator><lastBuildDate>Mon, 22 Aug 2016 20:23:43 GMT</lastBuildDate><atom:link href="https://tedbergeron.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[How to build a website with Asciidoctor]]></title><description><![CDATA[<div id="preamble">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Ted Bergeron ]]></title><description><![CDATA[a blog about tech]]></description><link>https://tedbergeron.github.io</link><generator>RSS for Node</generator><lastBuildDate>Mon, 22 Aug 2016 20:24:48 GMT</lastBuildDate><atom:link href="https://tedbergeron.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[How to build a website with Asciidoctor]]></title><description><![CDATA[<div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
 <p>Take a look at this demo of website I made <em>only using Asciidoctor</em> and with <strong>one command</strong>. <a href="http://tedbergeron.github.io/SiteMadeWithAsciidoctor/" class="bare">http://tedbergeron.github.io/SiteMadeWithAsciidoctor/</a></p>
@@ -513,7 +513,22 @@ In my opinion the <a href="https://atom.io/">Atom Editor</a> is the best editor 
 <p>Of course there are other editors that handle AsciiDoc as well. Brackets has a previewer. Vim, Sublime Text and NotePad++ have syntax highlighting. But I&#8217;ll stick with Atom. It works on my Windows and Linux machines.</p>
 </div>
 </div>
-</div>]]></description><link>https://tedbergeron.github.io/2015/03/29/Atom-Editor-for-Ascii-Doc.html</link><guid isPermaLink="true">https://tedbergeron.github.io/2015/03/29/Atom-Editor-for-Ascii-Doc.html</guid><category><![CDATA[Atom-Editor]]></category><category><![CDATA[ Asciidoctor]]></category><dc:creator><![CDATA[Ted Bergeron]]></dc:creator><pubDate>Sun, 29 Mar 2015 00:00:00 GMT</pubDate></item><item><title><![CDATA[We've all been warned]]></title><description><![CDATA[<div class="paragraph">
+</div>]]></description><link>https://tedbergeron.github.io/2015/03/29/Atom-Editor-for-Ascii-Doc.html</link><guid isPermaLink="true">https://tedbergeron.github.io/2015/03/29/Atom-Editor-for-Ascii-Doc.html</guid><category><![CDATA[Atom-Editor]]></category><category><![CDATA[ Asciidoctor]]></category><dc:creator><![CDATA[Ted Bergeron]]></dc:creator><pubDate>Sun, 29 Mar 2015 00:00:00 GMT</pubDate></item><item><title><![CDATA[The future of apps]]></title><description><![CDATA[<div class="quoteblock">
+<blockquote>
+<div class="paragraph">
+<p>To me the future is where you can develop web apps that access native features of the devices. You host it as a website because it <strong>is</strong> your website that just happens to be responsive.</p>
+</div>
+<div class="paragraph">
+<p>The concept of getting "apps" from iTunes or Play Store becomes a thing of the past or morphs into a search engine of websites formerly called apps.</p>
+</div>
+<div class="paragraph">
+<p>I&#8217;m so ready for the 21st century to get started.</p>
+</div>
+</blockquote>
+<div class="attribution">
+&#8212; Ted Bergeron
+</div>
+</div>]]></description><link>https://tedbergeron.github.io/2015/03/05/The-future-of-apps.html</link><guid isPermaLink="true">https://tedbergeron.github.io/2015/03/05/The-future-of-apps.html</guid><category><![CDATA[web]]></category><category><![CDATA[ apps]]></category><dc:creator><![CDATA[Ted Bergeron]]></dc:creator><pubDate>Thu, 05 Mar 2015 00:00:00 GMT</pubDate></item><item><title><![CDATA[We've all been warned]]></title><description><![CDATA[<div class="paragraph">
 <p>about building a house upon the sand.</p>
 </div>
 <div class="quoteblock">
