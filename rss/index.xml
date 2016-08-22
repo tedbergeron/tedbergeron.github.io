@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Ted Bergeron ]]></title><description><![CDATA[a blog about tech]]></description><link>https://tedbergeron.github.io</link><generator>RSS for Node</generator><lastBuildDate>Mon, 22 Aug 2016 20:15:15 GMT</lastBuildDate><atom:link href="https://tedbergeron.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[How to build a website with Asciidoctor]]></title><description><![CDATA[<div id="preamble">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Ted Bergeron ]]></title><description><![CDATA[a blog about tech]]></description><link>https://tedbergeron.github.io</link><generator>RSS for Node</generator><lastBuildDate>Mon, 22 Aug 2016 20:17:42 GMT</lastBuildDate><atom:link href="https://tedbergeron.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[How to build a website with Asciidoctor]]></title><description><![CDATA[<div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
 <p>Take a look at this demo of website I made <em>only using Asciidoctor</em> and with <strong>one command</strong>. <a href="http://tedbergeron.github.io/SiteMadeWithAsciidoctor/" class="bare">http://tedbergeron.github.io/SiteMadeWithAsciidoctor/</a></p>
@@ -134,7 +134,7 @@ or
 </div>
 </div>
 </div>
-</div>]]></description><link>https://tedbergeron.github.io/2015/08/16/How-to-build-a-website-with-Asciidoctor.html</link><guid isPermaLink="true">https://tedbergeron.github.io/2015/08/16/How-to-build-a-website-with-Asciidoctor.html</guid><category><![CDATA[Asciidoctor]]]></category><dc:creator><![CDATA[Ted Bergeron]]></dc:creator><pubDate>Sun, 16 Aug 2015 00:00:00 GMT</pubDate></item><item><title><![CDATA[Shifting Priorities, Pick One]]></title><description><![CDATA[<div class="paragraph">
+</div>]]></description><link>https://tedbergeron.github.io/2015/08/16/How-to-build-a-website-with-Asciidoctor.html</link><guid isPermaLink="true">https://tedbergeron.github.io/2015/08/16/How-to-build-a-website-with-Asciidoctor.html</guid><category><![CDATA[Asciidoctor]]></category><dc:creator><![CDATA[Ted Bergeron]]></dc:creator><pubDate>Sun, 16 Aug 2015 00:00:00 GMT</pubDate></item><item><title><![CDATA[Shifting Priorities, Pick One]]></title><description><![CDATA[<div class="paragraph">
 <p>Often during times of extreme workloads this little project management technique can work wonders for your dev team that is faced with too many project deadlines or too much scope creep.</p>
 </div>
 <div class="paragraph">
