@@ -1,0 +1,18 @@
+---
+layout: post
+title: "Dell Numlock"
+excerpt: "I finally figured out how to use the NumLock key on my laptop"
+tags: [Dell, Numlock, Slackware]
+comments: true
+---
+
+= Numlock
+
+I figured out that to use the NumLock you have to turn it on, And then *press and hold* the Function (Fn) key in order to use the number pad on the keyboard. 
+
+I have an old Dell Latitude D630. This is the default setting. Another completely unintuitive default setting.
+
+This is controlled by BIOS settings. Reboot and press F2 to get into the settings.
+
+Find and change these two settings. One to use Numlock only. And another to turn Numlock off when booting. 
+

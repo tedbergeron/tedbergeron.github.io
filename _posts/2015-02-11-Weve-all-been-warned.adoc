@@ -1,0 +1,20 @@
+= We've all been warned
+:hp-tags: development
+
+
+about building a house upon the sand.
+
+
+
+
+.Software is like Sandcastles
+[quote, Ted Bergeron]
+____
+
+Software is basically building a sandcastle. With each turn of the tide, you’ll have shore up some walls and strengthen the foundation. 
+
+Often a high tide will require a complete rebuild. 
+____
+
+
+I don’t like this analogy, but it is pretty true.

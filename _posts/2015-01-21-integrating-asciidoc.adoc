@@ -1,0 +1,24 @@
+---
+layout: post
+title: "Successfully Integrating Asciidoctor"
+excerpt: "After this tutorial, I got Asciidoctor working"
+tags: [AsciiDoc, Asciidoctor]
+comments: true
+---
+
+I followed this tutorial here: http://eshepelyuk.github.io/2014/11/06/advanced-jekyll-and-asciidoctor.html
+
+I was able to get Jekyll to render Asciidoc.
+
+== This is a header
+
+This is a sample page composed in AsciiDoc.
+Jekyll converts it to HTML using http://asciidoctor.org[Asciidoctor].
+
+CAUTION: very important tip
+
+[source,ruby]
+.sample.rb
+----
+puts "Hello, World!"
+----

@@ -1,0 +1,92 @@
+---
+layout: post
+title: "Atom Editor for AsciiDoc"
+excerpt: "In my opinion the Atom Editor is the best editor for working with AsciiDoc files. It's free and it works on Linux, Mac and Windows."
+tags: [AtomEditor, AsciiDoc, Asciidoctor]
+comments: true
+---
+
+== Why AsciiDoc?
+
+I've used Markdown for years but last year I heard about AsciiDoc at link:http://www.writethedocs.org/[Write The Docs] 2014 conference. Then I quickly discovered link:http://asciidoctor.org/[Asciidoctor] and I've never looked back.
+
+AsciiDoc is like a superset of Markdown and since Asciidoctor renders Markdown too,  it was easy for me to just start using AsciiDoc.
+
+== Fast Start with AsciiDoc
+
+I think the fastest way to get started is to install the link:https://chrome.google.com/webstore/detail/asciidoctorjs-live-previe/iaalpfgpbocpdfblpnhhgllgbdbchmia?hl=en-US[Asciidoctor.js Live Preview] extension for Chrome.
+
+Set the options for it
+
+* Safe mode: unsafe _(because you'll want to do all the cool stuff with it)_
+* Preview .txt files: icon:check[role=black] _(so you can use .txt in addition to .adoc)_
+* Theme / Stylesheet: _(colony or maker are my favorites)_
+
+Click save.
+
+Open your favorite text editor and start writng. Format your doc with AsciiDoc. Here's some links to get you started with the syntax:
+
+* icon:star[role=yellow] http://powerman.name/doc/asciidoc[AsciiDoc cheatsheet]
+* icon:star[role=yellow] http://asciidoctor.org/docs/asciidoc-syntax-quick-reference/[Asciidoctor Syntax Quick Reference]
+* icon:star[role=yellow] http://asciidoctor.org/docs/user-manual/#doc-header[Asciidoctor User Manual: syntax]
+
+Open your text file in Chrome to start previewing it. *Have your text editor open right next to Chrome* so you have a side-by-side editor|viewer. Each time you save you'll see your changes rendered in Chrome.
+
+TIP: *Pro Tip:* Bookmark your AsciiDoc text file. Then write links to all your other docs creating a simple wiki or intranet site on your computer; powered by this browser extension and a text editor.
+
+link:https://addons.mozilla.org/en-us/firefox/addon/asciidoctorjs-live-preview/?src=search[Asciidoctor.js Live Preview] is also available for Firefox but it is not as mature as the Chrome version as of the time of this writing. But I'm sure it will catch up quickly.
+
+== Atom Editor icon:github-alt[]
+
+[quote, Ted Bergeron]
+In my opinion the link:https://atom.io/[Atom Editor] is the best editor for working with AsciiDoc files. It's free and it works on Linux, Mac and Windows.
+
+You'll need these two packages for the link:https://atom.io/[Atom Editor] to make working with AsciiDoc a dream. Go to File > Settings > Install. Search for 'AsciiDoc'. Both of these are by 'asciidoctor'
+
+* *language-asciidoc* icon:check[role=green]
+* *asciidoc-preview* icon:check[role=green]
+
+
+=== language-asciidoc for syntax highlighting
+
+This package gives you beautiful syntax highlighting for AsciiDoc files. It automatically detects .adoc files. But I use .txt files. To get the syntax highlighting to lightup, click the Plain Text in the lower right-hand status bar and select AsciiDoc from the drop-down.
+
+TIP: *Using .txt* First your spell checker is going to work. Secondly I think it is an advantage to use .txt files in the repository so after I'm long gone, anyone can still open the files and work with them; even if they've never heard of AsciiDoc formatting. Although it would be a simple command to change file extentions from .adoc back to .txt.
+
+Experiment with different Atom themes to find syntax colors that work best for you.
+
+=== asciidoc-preview for live previewing
+
+The asciidoc-preview package gives you the perfect side-by-side editor|viewer for working with your text files.
+
+.Toggle Preview (Ctrl+Shift+A)
+To toggle the preview window use Packages > AsciiDoc > Toggle Preview (Ctrl+Shift+A)
+
+.Toggle Soft Wrap
+You might also want to use menu View > Toggle Soft Wrap so you can see all your text in the editor pane. You can toggle it on by default in File > Settings > Editor Settings > Soft Wrap.
+
+IMPORTANT: *Windows Version:* If the AsciiDoc Toggle Preview (Ctrl+Shift+A) has stopped working in Windows version of Atom Editor. Find menu File > Open Your Keymap. It will likely be a empty file. Add this code and save it:
+
+[source, cson]
+.keymap file
+----
+'atom-workspace, atom-workspace atom-text-editor':
+  'ctrl-shift-a': 'asciidoc-preview:toggle'
+  'ctrl-alt-a': 'asciidoc-preview:toggle-render-on-save-only'
+----
+
+
+
+
+=== line-ending-converter for Windows
+
+When you open text files that have been edited with Atom in Notepad you might find it only has line-feeds ("\n") and no Windows carriage returns ("\r\n"). There is another package to convert line endings called *line-ending-converter*
+
+Use menu Packages > Convert Line Endings To > Windows Format
+
+and save.
+
+
+== Other Editors?
+
+Of course there are other editors that handle AsciiDoc as well. Brackets has a previewer. Vim, Sublime Text and NotePad++ have syntax highlighting. But I'll stick with Atom. It works on my Windows and Linux machines.

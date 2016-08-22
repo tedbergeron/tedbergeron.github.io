@@ -1,0 +1,41 @@
+---
+layout: post
+title: "Shifting Priorities, Pick One"
+excerpt: ""
+tags: [Project Management]
+comments: true
+---
+
+Often during times of extreme workloads this little project management technique can work wonders for your dev team that is faced with too many project deadlines or too much scope creep.
+
+Try using this script when dealing with project owners.
+
+[quote]
+____
+You said your top priority was the ABC project.
+
+Now you say your top priority is this new XYZ project.
+
+So we are going to _stop_ work on the old ABC project and start work on the new XYZ one. Is that really what you want?
+
+Okay then the old ABC project is not going to get done by 'end of quarter' [insert former completion goal date here]
+____
+
+
+The concept is to get the project owner to pick their top priority and acknowledge that their choice of shifting priorities or adding to the scope of the project has just pushed the former completion goal date into the future.
+
+This gives the project owner an opportunity to re-evaluate their top priority on the spot.
+
+And it can be a quick, informal conversation that works just like the formal process of making them sign off on project changes.
+
+Either way it gives the development team the reaffirmation that they are working on the project owner's top priority.
+
+
+TIP: This is very important from a team morale standpoint because the dev team now knows they no longer should be working on the old ABC project at this time. And that the project owner just acknowledged that _they_ just pushed back the deadline for the old ABC project.
+
+Later if the project owner complains that the original deadline for old ABC project goes past, you can list _their_ choice to move the dev team on to the XYZ project which moved the deadline.
+You just have to keep track of their choices and how long it takes to accomplish them. Of course YMMV (your mileage may vary) in the business world, but at least you have a strong, written justification of what happened.
+
+Also each time you meet with that project owner, you start by asking: _'We are still working on the new XYZ project, is that still your top priority?'_
+
+Then you can go on to talk about any new projects and finish the meeting with _'Okay we'll put today's discussion of changes in the backlog and keep working on the new XYZ project'._

@@ -1,0 +1,46 @@
+---
+layout: post
+title: "Using Linux and Jekyll"
+excerpt: "I installed Jekyll without any problems on Linux. I had many problems getting it to work with Windows"
+tags: [Linux, Jekyll]
+comments: true
+---
+
+I am recreating my success with Jekyll on Windows now using Linux.
+
+I already had Ruby installed, so this was a piece of cake.
+
+ # gem install jekyll
+ # gem install asciidoctor
+ # gem install jekyll-asciidoc
+ # gem install coderay
+
+
+I am followed this tutorial here: http://eshepelyuk.github.io/2014/11/06/advanced-jekyll-and-asciidoctor.html
+
+Then I created this post in a text file using AsciiDoc instead of Markdown. I prefer AsciiDoc since it has so many more features than Markdown.
+
+Asciidoctor is the easiest way to render AsciiDoc pages. It does everything I need it to do.
+
+Change to the Jekyll project directory. Then use Jekyll to build the pages
+
+ # jekyll build
+ # jekyll serve
+
+When you use jekyll serve you can open a browser and view the site:
+
+http://localhost:4000
+
+
+== Testing Asciidoctor Here
+
+This is a sample page composed in AsciiDoc.
+Jekyll converts it to HTML using http://asciidoctor.org[Asciidoctor].
+
+CAUTION: very important tip
+
+[source,ruby]
+.sample.rb
+----
+puts "Hello, World!"
+----

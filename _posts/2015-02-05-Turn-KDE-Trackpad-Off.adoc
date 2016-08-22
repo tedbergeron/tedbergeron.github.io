@@ -1,0 +1,39 @@
+---
+layout: post
+title: "Turn KDE Trackpad Off"
+excerpt: ""
+tags: [Dell, Trackpad, Slackware, KDE]
+comments: true
+---
+
+= Turn KDE Trackpad Off
+
+I use Slackware Linux on a DELL D630 laptop. I never use a mouse and I rely on the trackpad for all my mousing needs.
+
+I was trying to adjust the brightness. DELL uses the Function (Fn) key + Up and Down Arrows.
+
+I was trying to turn the brightness down and I accidentally pressed: Fn + (auto brightness) Left Arrow which apparently is a KDE keyboard-shortcut to turn off the touchpad permanently.
+
+How handy... Not! There is a popup message letting you know the touchpad has been turned off.
+
+Now it is only turned off for the user that is logged in. I can't find a keyboard shortcut for turning it back on.
+
+So now every time I reboot, I have to get out a mouse and search for the trackpad and turn it back on.
+
+Here's what I have to do now each and every time I reboot. Open a terminal.
+
+ # xinput list
+
+I usually find my touchpad on 11 or 12. It seems to jump around each boot. This is what it looks like
+
+ AlpsPS/2 DualPoint TouchPad id=12 [slave pointer (2)]
+
+So this time it is #12. Next run this command:
+
+ # xinput set-prop 12 "Device Enabled" 1
+
+This immediately restores the trackpad.
+
+TIP: set-prop to whatever id number your touchpad is. I believe the 1 at the end means true.
+
+I don't know if there is a permanently way to restore the trackpad. I'm sure there is a setting somewhere. Of course I could create a new user.

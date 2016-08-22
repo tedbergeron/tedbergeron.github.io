@@ -1,0 +1,16 @@
+---
+layout: post
+title: "The future of apps"
+excerpt: "After this tutorial, I got Asciidoctor working"
+tags: [web, apps]
+comments: true
+---
+
+[, Ted Bergeron]
+____
+To me the future is where you can develop web apps that access native features of the devices. You host it as a website because it *is* your website that just happens to be responsive.
+
+The concept of getting "apps" from iTunes or Play Store becomes a thing of the past or morphs into a search engine of websites formerly called apps.
+
+I'm so ready for the 21st century to get started.
+____
