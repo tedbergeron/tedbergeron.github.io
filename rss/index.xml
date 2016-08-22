@@ -1,4 +1,140 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Ted Bergeron ]]></title><description><![CDATA[a blog about tech]]></description><link>https://tedbergeron.github.io</link><generator>RSS for Node</generator><lastBuildDate>Mon, 22 Aug 2016 20:17:50 GMT</lastBuildDate><atom:link href="https://tedbergeron.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Shifting Priorities, Pick One]]></title><description><![CDATA[<div class="paragraph">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Ted Bergeron ]]></title><description><![CDATA[a blog about tech]]></description><link>https://tedbergeron.github.io</link><generator>RSS for Node</generator><lastBuildDate>Mon, 22 Aug 2016 20:17:57 GMT</lastBuildDate><atom:link href="https://tedbergeron.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[How to build a website with Asciidoctor]]></title><description><![CDATA[<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>Take a look at this demo of website I made <em>only using Asciidoctor</em> and with <strong>one command</strong>. <a href="http://tedbergeron.github.io/SiteMadeWithAsciidoctor/" class="bare">http://tedbergeron.github.io/SiteMadeWithAsciidoctor/</a></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_how_to">How To</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Start by downloading the files in my <a href="https://github.com/tedbergeron/SiteMadeWithAsciidoctor">GitHub Repo</a>sitory.
+Edit the content in the text files marking them up with AsciiDoc.</p>
+</div>
+<div class="paragraph">
+<p>I am using a header and footer that is included on the index and page one AsciiDoc text file.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_to_render_the_pages">To render the pages</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>At the command prompt</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>&gt; asciidoctor *.txt</pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_push_or_ftp">Push or FTP</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Push your files back to your GitHub 'gh-pages' branch.</p>
+</div>
+<div class="paragraph">
+<p>Or just FTP the .html files that were generated to your own website.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_that_s_it_you_re_done">That&#8217;s it, you&#8217;re done.</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Following is some additional information to customize your website.</p>
+</div>
+<div class="sect3">
+<h4 id="_use_different_asciidoctor_themes">Use Different Asciidoctor Themes</h4>
+<div class="paragraph">
+<p>I&#8217;ve included a couple themes in the styles directory in the repository. To use them.</p>
+</div>
+<div class="paragraph">
+<p>At the command prompt</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>&gt; asciidoctor -a stylesheet=styles/maker.css  *.txt</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>If you&#8217;d like to use the colony stylesheet use</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>&gt; asciidoctor -a stylesheet=styles/colony.css  *.txt</pre>
+</div>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+You can get other themes and preview them here: <a href="http://themes.asciidoctor.org/" class="bare">http://themes.asciidoctor.org/</a>
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_smart_links">Smart Links</h4>
+<div class="paragraph">
+<p>I&#8217;m using Asciidoctor 'smart links' to convert the file extension ".adoc" or ".txt" to ".html"</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>&lt;&lt;page2.adoc#,Smart Link to page 2&gt;&gt;
+or
+&lt;&lt;page2.txt#,Smart Link to page 2&gt;&gt;</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>both renders as a link</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>href="page2.html"</pre>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_ignore_the_extra_files">Ignore the Extra Files</h4>
+<div class="paragraph">
+<p>This method will render the header.txt and footer.txt into html files too. But since they&#8217;re not linked to anything, it&#8217;s fine for them to live along side the others.</p>
+</div>
+<div class="paragraph">
+<p>You could get organized and put all the Asciidoc text files into a sub-directory, but I&#8217;ll leave that to you to figure out the logistics.</p>
+</div>
+<div class="paragraph">
+<p>My goal was to generate the simplest website using the most minimal command.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_why_don_t_you_use_adoc_files">Why don&#8217;t you use .adoc files?</h4>
+<div class="paragraph">
+<p>Typically you see AsciiDoc files with an .adoc or .asciidoc file extension. But since they are just text files and since Asciidoctor will try to render any text file you feed it, I choose to use .txt so people can easily edit the files in Notepad.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_additional_info">Additional Info</h4>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="http://asciidoctor.org/docs/what-is-asciidoc/">What is AsciiDoc?</a></p>
+</li>
+<li>
+<p><a href="http://asciidoctor.org/docs/#get-started-with-asciidoctor">Get Started with Asciidoctor</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>]]></description><link>https://tedbergeron.github.io/2015/08/16/How-to-build-a-website-with-Asciidoctor.html</link><guid isPermaLink="true">https://tedbergeron.github.io/2015/08/16/How-to-build-a-website-with-Asciidoctor.html</guid><category><![CDATA[Asciidoctor]]></category><dc:creator><![CDATA[Ted Bergeron]]></dc:creator><pubDate>Sun, 16 Aug 2015 00:00:00 GMT</pubDate></item><item><title><![CDATA[Shifting Priorities, Pick One]]></title><description><![CDATA[<div class="paragraph">
 <p>Often during times of extreme workloads this little project management technique can work wonders for your dev team that is faced with too many project deadlines or too much scope creep.</p>
 </div>
 <div class="paragraph">
