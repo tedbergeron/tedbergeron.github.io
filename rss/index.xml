@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Ted Bergeron ]]></title><description><![CDATA[a blog about tech]]></description><link>https://tedbergeron.github.io</link><generator>RSS for Node</generator><lastBuildDate>Mon, 22 Aug 2016 20:20:24 GMT</lastBuildDate><atom:link href="https://tedbergeron.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[How to build a website with Asciidoctor]]></title><description><![CDATA[<div id="preamble">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Ted Bergeron ]]></title><description><![CDATA[a blog about tech]]></description><link>https://tedbergeron.github.io</link><generator>RSS for Node</generator><lastBuildDate>Mon, 22 Aug 2016 20:23:43 GMT</lastBuildDate><atom:link href="https://tedbergeron.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[How to build a website with Asciidoctor]]></title><description><![CDATA[<div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
 <p>Take a look at this demo of website I made <em>only using Asciidoctor</em> and with <strong>one command</strong>. <a href="http://tedbergeron.github.io/SiteMadeWithAsciidoctor/" class="bare">http://tedbergeron.github.io/SiteMadeWithAsciidoctor/</a></p>
@@ -341,7 +341,179 @@ If you are using Firefox change all your file extensions to .adoc because there&
 <p>You could build an intranet site on your network using this concept.</p>
 </div>
 </div>
-</div>]]></description><link>https://tedbergeron.github.io/2015/04/09/Local-Ascii-Doc-Website.html</link><guid isPermaLink="true">https://tedbergeron.github.io/2015/04/09/Local-Ascii-Doc-Website.html</guid><category><![CDATA[Asciidoctor]]></category><dc:creator><![CDATA[Ted Bergeron]]></dc:creator><pubDate>Thu, 09 Apr 2015 00:00:00 GMT</pubDate></item><item><title><![CDATA[We've all been warned]]></title><description><![CDATA[<div class="paragraph">
+</div>]]></description><link>https://tedbergeron.github.io/2015/04/09/Local-Ascii-Doc-Website.html</link><guid isPermaLink="true">https://tedbergeron.github.io/2015/04/09/Local-Ascii-Doc-Website.html</guid><category><![CDATA[Asciidoctor]]></category><dc:creator><![CDATA[Ted Bergeron]]></dc:creator><pubDate>Thu, 09 Apr 2015 00:00:00 GMT</pubDate></item><item><title><![CDATA[Atom Editor for AsciiDoc]]></title><description><![CDATA[<div class="sect1">
+<h2 id="_why_asciidoc">Why AsciiDoc?</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>I&#8217;ve used Markdown for years but last year I heard about AsciiDoc at <a href="http://www.writethedocs.org/">Write The Docs</a> 2014 conference. Then I quickly discovered <a href="http://asciidoctor.org/">Asciidoctor</a> and I&#8217;ve never looked back.</p>
+</div>
+<div class="paragraph">
+<p>AsciiDoc is like a superset of Markdown and since Asciidoctor renders Markdown too,  it was easy for me to just start using AsciiDoc.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_fast_start_with_asciidoc">Fast Start with AsciiDoc</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>I think the fastest way to get started is to install the <a href="https://chrome.google.com/webstore/detail/asciidoctorjs-live-previe/iaalpfgpbocpdfblpnhhgllgbdbchmia?hl=en-US">Asciidoctor.js Live Preview</a> extension for Chrome.</p>
+</div>
+<div class="paragraph">
+<p>Set the options for it</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Safe mode: unsafe <em>(because you&#8217;ll want to do all the cool stuff with it)</em></p>
+</li>
+<li>
+<p>Preview .txt files: <span class="icon black"><i class="fa fa-check"></i></span> <em>(so you can use .txt in addition to .adoc)</em></p>
+</li>
+<li>
+<p>Theme / Stylesheet: <em>(colony or maker are my favorites)</em></p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Click save.</p>
+</div>
+<div class="paragraph">
+<p>Open your favorite text editor and start writng. Format your doc with AsciiDoc. Here&#8217;s some links to get you started with the syntax:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><span class="icon yellow"><i class="fa fa-star"></i></span> <a href="http://powerman.name/doc/asciidoc">AsciiDoc cheatsheet</a></p>
+</li>
+<li>
+<p><span class="icon yellow"><i class="fa fa-star"></i></span> <a href="http://asciidoctor.org/docs/asciidoc-syntax-quick-reference/">Asciidoctor Syntax Quick Reference</a></p>
+</li>
+<li>
+<p><span class="icon yellow"><i class="fa fa-star"></i></span> <a href="http://asciidoctor.org/docs/user-manual/#doc-header">Asciidoctor User Manual: syntax</a></p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Open your text file in Chrome to start previewing it. <strong>Have your text editor open right next to Chrome</strong> so you have a side-by-side editor|viewer. Each time you save you&#8217;ll see your changes rendered in Chrome.</p>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-tip" title="Tip"></i>
+</td>
+<td class="content">
+<strong>Pro Tip:</strong> Bookmark your AsciiDoc text file. Then write links to all your other docs creating a simple wiki or intranet site on your computer; powered by this browser extension and a text editor.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p><a href="https://addons.mozilla.org/en-us/firefox/addon/asciidoctorjs-live-preview/?src=search">Asciidoctor.js Live Preview</a> is also available for Firefox but it is not as mature as the Chrome version as of the time of this writing. But I&#8217;m sure it will catch up quickly.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_atom_editor_span_class_icon_i_class_fa_fa_github_alt_i_span">Atom Editor <span class="icon"><i class="fa fa-github-alt"></i></span></h2>
+<div class="sectionbody">
+<div class="quoteblock">
+<blockquote>
+In my opinion the <a href="https://atom.io/">Atom Editor</a> is the best editor for working with AsciiDoc files. It&#8217;s free and it works on Linux, Mac and Windows.
+</blockquote>
+<div class="attribution">
+&#8212; Ted Bergeron
+</div>
+</div>
+<div class="paragraph">
+<p>You&#8217;ll need these two packages for the <a href="https://atom.io/">Atom Editor</a> to make working with AsciiDoc a dream. Go to File &gt; Settings &gt; Install. Search for 'AsciiDoc'. Both of these are by 'asciidoctor'</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>language-asciidoc</strong> <span class="icon green"><i class="fa fa-check"></i></span></p>
+</li>
+<li>
+<p><strong>asciidoc-preview</strong> <span class="icon green"><i class="fa fa-check"></i></span></p>
+</li>
+</ul>
+</div>
+<div class="sect2">
+<h3 id="_language_asciidoc_for_syntax_highlighting">language-asciidoc for syntax highlighting</h3>
+<div class="paragraph">
+<p>This package gives you beautiful syntax highlighting for AsciiDoc files. It automatically detects .adoc files. But I use .txt files. To get the syntax highlighting to lightup, click the Plain Text in the lower right-hand status bar and select AsciiDoc from the drop-down.</p>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-tip" title="Tip"></i>
+</td>
+<td class="content">
+<strong>Using .txt</strong> First your spell checker is going to work. Secondly I think it is an advantage to use .txt files in the repository so after I&#8217;m long gone, anyone can still open the files and work with them; even if they&#8217;ve never heard of AsciiDoc formatting. Although it would be a simple command to change file extentions from .adoc back to .txt.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>Experiment with different Atom themes to find syntax colors that work best for you.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_asciidoc_preview_for_live_previewing">asciidoc-preview for live previewing</h3>
+<div class="paragraph">
+<p>The asciidoc-preview package gives you the perfect side-by-side editor|viewer for working with your text files.</p>
+</div>
+<div class="paragraph">
+<div class="title">Toggle Preview (Ctrl+Shift+A)</div>
+<p>To toggle the preview window use Packages &gt; AsciiDoc &gt; Toggle Preview (Ctrl+Shift+A)</p>
+</div>
+<div class="paragraph">
+<div class="title">Toggle Soft Wrap</div>
+<p>You might also want to use menu View &gt; Toggle Soft Wrap so you can see all your text in the editor pane. You can toggle it on by default in File &gt; Settings &gt; Editor Settings &gt; Soft Wrap.</p>
+</div>
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-important" title="Important"></i>
+</td>
+<td class="content">
+<strong>Windows Version:</strong> If the AsciiDoc Toggle Preview (Ctrl+Shift+A) has stopped working in Windows version of Atom Editor. Find menu File &gt; Open Your Keymap. It will likely be a empty file. Add this code and save it:
+</td>
+</tr>
+</table>
+</div>
+<div class="listingblock">
+<div class="title">keymap file</div>
+<div class="content">
+<pre class="highlight"><code class="language-cson" data-lang="cson">'atom-workspace, atom-workspace atom-text-editor':
+  'ctrl-shift-a': 'asciidoc-preview:toggle'
+  'ctrl-alt-a': 'asciidoc-preview:toggle-render-on-save-only'</code></pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_line_ending_converter_for_windows">line-ending-converter for Windows</h3>
+<div class="paragraph">
+<p>When you open text files that have been edited with Atom in Notepad you might find it only has line-feeds ("\n") and no Windows carriage returns ("\r\n"). There is another package to convert line endings called <strong>line-ending-converter</strong></p>
+</div>
+<div class="paragraph">
+<p>Use menu Packages &gt; Convert Line Endings To &gt; Windows Format</p>
+</div>
+<div class="paragraph">
+<p>and save.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_other_editors">Other Editors?</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Of course there are other editors that handle AsciiDoc as well. Brackets has a previewer. Vim, Sublime Text and NotePad++ have syntax highlighting. But I&#8217;ll stick with Atom. It works on my Windows and Linux machines.</p>
+</div>
+</div>
+</div>]]></description><link>https://tedbergeron.github.io/2015/03/29/Atom-Editor-for-Ascii-Doc.html</link><guid isPermaLink="true">https://tedbergeron.github.io/2015/03/29/Atom-Editor-for-Ascii-Doc.html</guid><category><![CDATA[Atom-Editor]]></category><category><![CDATA[ Asciidoctor]]></category><dc:creator><![CDATA[Ted Bergeron]]></dc:creator><pubDate>Sun, 29 Mar 2015 00:00:00 GMT</pubDate></item><item><title><![CDATA[We've all been warned]]></title><description><![CDATA[<div class="paragraph">
 <p>about building a house upon the sand.</p>
 </div>
 <div class="quoteblock">
