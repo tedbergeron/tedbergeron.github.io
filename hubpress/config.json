@@ -4,6 +4,15 @@
     "repositoryName": "tedbergeron.github.io",
     "branch": "master"
   },
+  "site": {
+    "title": "Ted Bergeron ",
+    "description": "Blogging about tech",
+    "postsPerPage": "10"
+  },
+  "socialnetwork": {
+    "twitter": "TedAtCIS",
+    "github": "tedbergeron"
+  },
   "theme": {
     "name": "ghostium"
   }
