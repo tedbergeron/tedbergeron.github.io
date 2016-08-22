@@ -1,10 +1,5 @@
----
-layout: post
-title: "Shifting Priorities, Pick One"
-excerpt: ""
-tags: [Project Management]
-comments: true
----
+= Shifting Priorities, Pick One
+:hp-tags: Project-Management
 
 Often during times of extreme workloads this little project management technique can work wonders for your dev team that is faced with too many project deadlines or too much scope creep.
 
