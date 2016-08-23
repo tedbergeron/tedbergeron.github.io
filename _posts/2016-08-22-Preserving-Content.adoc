@@ -49,6 +49,8 @@ Then I use a static website generator called link:http://gohugo.io/[Hugo] to bui
 Hugo can use JSON as the front matter.
 It uses link:http://asciidoctor.org/[Asciidoctor] to render the formatting before building the website.
 
+NOTE: This blog, powered by HubPress, uses the link:https://raw.githubusercontent.com/tedbergeron/tedbergeron.github.io/master/_posts/2016-08-22-Preserving-Content.adoc[same concept].
+
 //This way my content is stored in a text file.
 //It is still very readable even though it is decorated with AsciiDoc.
 
