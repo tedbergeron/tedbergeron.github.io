@@ -1,4 +1,76 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Ted Bergeron ]]></title><description><![CDATA[a blog about tech]]></description><link>https://tedbergeron.github.io</link><generator>RSS for Node</generator><lastBuildDate>Mon, 22 Aug 2016 20:31:07 GMT</lastBuildDate><atom:link href="https://tedbergeron.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[How to build a website with Asciidoctor]]></title><description><![CDATA[<div id="preamble">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Ted Bergeron ]]></title><description><![CDATA[a blog about tech]]></description><link>https://tedbergeron.github.io</link><generator>RSS for Node</generator><lastBuildDate>Tue, 23 Aug 2016 04:19:12 GMT</lastBuildDate><atom:link href="https://tedbergeron.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Preserving Content]]></title><description><![CDATA[<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>I attended the Scripting News meetup in Portland on Friday and got a chance to meet <a href="http://davewiner.com/">Dave Winer</a>.</p>
+</div>
+<div class="paragraph">
+<p>The topic of preserving content came up which is a very important to me.</p>
+</div>
+<div class="sidebarblock">
+<div class="content">
+<div class="paragraph">
+<p>How can we preserve content so it is not trapped in old, obsolete hardware or software?</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_continuous_migration">Continuous Migration</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>I started blogging in 2000 when I read an article about <a href="http://beebot.com/1999/09/09/what-is-a-weblog/">"weblogs"</a>.</p>
+</div>
+<div class="paragraph">
+<p>Since <a href="http://beebot.com/">my website</a> was already data-driven, it was pretty trivial to add a weblog category.
+I used <a href="https://en.wikipedia.org/wiki/BBCode">bulletin board code</a> and wrote a simple parser to add bold and italics to plain text.
+This was before AsciiDoc or Markdown were invented.</p>
+</div>
+<div class="paragraph">
+<p>Keeping my website online was an endless series of server changes that broke my code.</p>
+</div>
+<div class="paragraph">
+<p>After a few years of fighting that, I took a break from maintaining my website and started using Blogger.com.</p>
+</div>
+<div class="paragraph">
+<p>But all my old posts were now stuck in a database.
+And my website code used to fetch those posts no longer worked.</p>
+</div>
+<div class="paragraph">
+<p>This is the root of the problem we discussed at the meetup.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_preserving_content_as_text">Preserving content as text</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Ward Cunningham shared his story of trying to resurrect the work he&#8217;d done with HyperCard.
+His solution for today is to move all the content into JSON stored as simple text.
+Take a look at his latest invention; <a href="http://fed.wiki.org/view/welcome-visitors">Federated Wiki</a>.
+Click on the JSON link at the bottom of each page to see what that looks like.</p>
+</div>
+<div class="paragraph">
+<p>I&#8217;ve come to the same realization.
+If I want to preserve the content into the future, it&#8217;s going to be in a format that will still be around in 20 years.</p>
+</div>
+<div class="paragraph">
+<p>So I&#8217;m slowly dredging up my old content out of old databases and saving the text into <strong>text files</strong>.</p>
+</div>
+<div class="paragraph">
+<p>I&#8217;m formatting my text using <a href="http://asciidoctor.org/docs/what-is-asciidoc/">AsciiDoc</a>, which is like a super-set of Markdown.</p>
+</div>
+<div class="paragraph">
+<p>Then I use a static website generator called <a href="http://gohugo.io/">Hugo</a> to build my websites.
+Hugo can use JSON as the front matter.
+It uses <a href="http://asciidoctor.org/">Asciidoctor</a> to render the formatting before building the website.</p>
+</div>
+<div class="paragraph">
+<p>Hopefully I&#8217;ve minimized the migration frustration now that my content is in plain text.
+Twenty years from now I should still be able to open and read my text files.</p>
+</div>
+</div>
+</div>]]></description><link>https://tedbergeron.github.io/2016/08/22/Preserving-Content.html</link><guid isPermaLink="true">https://tedbergeron.github.io/2016/08/22/Preserving-Content.html</guid><category><![CDATA[Asciidoctor]]></category><dc:creator><![CDATA[Ted Bergeron]]></dc:creator><pubDate>Mon, 22 Aug 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[How to build a website with Asciidoctor]]></title><description><![CDATA[<div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
 <p>Take a look at this demo of website I made <em>only using Asciidoctor</em> and with <strong>one command</strong>. <a href="http://tedbergeron.github.io/SiteMadeWithAsciidoctor/" class="bare">http://tedbergeron.github.io/SiteMadeWithAsciidoctor/</a></p>
