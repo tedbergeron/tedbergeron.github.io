@@ -1,0 +1,57 @@
+= Preserving Content
+:hp-tags: Asciidoctor
+
+I attended the Scripting News meetup in Portland on Friday and got a chance to meet link:http://davewiner.com/[Dave Winer].
+
+The topic of preserving content came up which is a very important to me.
+
+****
+How can we preserve content so it is not trapped in old, obsolete hardware or software?
+****
+
+
+== Continuous Migration
+
+I started blogging in 2000 when I read an article about link:http://beebot.com/1999/09/09/what-is-a-weblog/["weblogs"].
+
+Since link:http://beebot.com/[my website] was already data-driven, it was pretty trivial to add a weblog category.
+I used link:https://en.wikipedia.org/wiki/BBCode[bulletin board code] and wrote a simple parser to add bold and italics to plain text.
+This was before AsciiDoc or Markdown were invented.
+
+Keeping my website online was an endless series of server changes that broke my code.
+
+After a few years of fighting that, I took a break from maintaining my website and started using Blogger.com.
+
+But all my old posts were now stuck in a database.
+And my website code used to fetch those posts no longer worked.
+
+This is the root of the problem we discussed at the meetup.
+
+== Preserving content as text
+
+//Software and hardware becomes obsolete.
+//So content is lost, trapped inside these old systems that are no longer supported.
+
+Ward Cunningham shared his story of trying to resurrect the work he'd done with HyperCard.
+// to run to show the work that he'd created years ago.
+His solution for today is to move all the content into JSON stored as simple text.
+Take a look at his latest invention; link:http://fed.wiki.org/view/welcome-visitors[Federated Wiki].
+Click on the JSON link at the bottom of each page to see what that looks like.
+
+I've come to the same realization.
+If I want to preserve the content into the future, it's going to be in a format that will still be around in 20 years.
+
+So I'm slowly dredging up my old content out of old databases and saving the text into *text files*.
+
+I'm formatting my text using link:http://asciidoctor.org/docs/what-is-asciidoc/[AsciiDoc], which is like a super-set of Markdown.
+
+Then I use a static website generator called link:http://gohugo.io/[Hugo] to build my websites.
+Hugo can use JSON as the front matter.
+It uses link:http://asciidoctor.org/[Asciidoctor] to render the formatting before building the website.
+
+//This way my content is stored in a text file.
+//It is still very readable even though it is decorated with AsciiDoc.
+
+
+Hopefully I've minimized the migration frustration now that my content is in plain text.
+Twenty years from now I should still be able to open and read my text files.
