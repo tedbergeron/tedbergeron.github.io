@@ -1,4 +1,82 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Ted Bergeron ]]></title><description><![CDATA[a blog about tech]]></description><link>https://tedbergeron.github.io</link><generator>RSS for Node</generator><lastBuildDate>Tue, 23 Aug 2016 04:44:06 GMT</lastBuildDate><atom:link href="https://tedbergeron.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Preserving Content]]></title><description><![CDATA[<div id="preamble">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Ted Bergeron ]]></title><description><![CDATA[a blog about tech]]></description><link>https://tedbergeron.github.io</link><generator>RSS for Node</generator><lastBuildDate>Thu, 02 Feb 2017 20:05:20 GMT</lastBuildDate><atom:link href="https://tedbergeron.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Storage Service: publish once, distribute everywhere]]></title><description><![CDATA[<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>You should be able to take your content with you when you leave Facebook, Twitter, etc. and share it in the new app-of-the-moment.</p>
+</div>
+<div class="paragraph">
+<p>Dave Winer has been on this kick about a "storage service" <a href="http://scripting.com/2017/01/05/itsTimeToThinkOfTheUsers.html">Break the logjam with a simple API</a> and <a href="http://scripting.com/2017/01/25/storageAndFirefox.html">Storage and Firefox</a>.</p>
+</div>
+<div class="paragraph">
+<p>He says that once we have storage service API&#8217;s for Dropbox, et al, that JavaScript apps will become a new web or at least a new way for us to publish blogs and social media.</p>
+</div>
+<div class="paragraph">
+<p>I really agree because this fits with the <a href="http://www.digitaltrends.com/web/ways-to-decentralize-the-web/">SoLiD and PODS</a> (Personal Online Data Stores) concepts of Tim Berners-Lee.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>You own your content.</p>
+</li>
+<li>
+<p>You publish your Tweet or blog post to your storage service.</p>
+</li>
+<li>
+<p>You authorize Twitter or Medium to access your posts there.</p>
+</li>
+</ul>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-tip" title="Tip"></i>
+</td>
+<td class="content">
+This allows you to publish once and distribute everywhere.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>When you get tired of Dropbox, you can move all your content over to Google Drive or whatever and all your posts and Tweets are still online.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_javascript_in_the_browser">JavaScript in the browser</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Static web apps work in GitHub and Dropbox where you host some HTML and use JavaScript to read/write content.
+I&#8217;m storing my content in JSON.</p>
+</div>
+<div class="paragraph">
+<p>Ideally the HTML and JavaScript would become an app as a browser plugin or extension.</p>
+</div>
+<div class="paragraph">
+<p>Since GitHub and Dropbox already have API&#8217;s it seems like this would be pretty simple.
+So far I&#8217;m struggling because almost all code I find is based on hosting it on some web server.
+The API&#8217;s all require someone with a developer mindset to get API keys and tokens.</p>
+</div>
+<div class="paragraph">
+<p>I still need to answer more questions about how an average user would hook up a JavaScript app to a storage service with just their username and password.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_continue_the_public_discussion">Continue the public discussion</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>I hope this continues the discussion to conceptualize where this could go.</p>
+</div>
+<div class="paragraph">
+<p>What kinds of applications do you imagine? Public apps like social networking, blogging, federated wiki.
+Private apps for tracking your collections of books and movies, address book for contacts&#8230;&#8203;</p>
+</div>
+<div class="paragraph">
+<p>Please blog about your concepts and Tweet about it.</p>
+</div>
+</div>
+</div>]]></description><link>https://tedbergeron.github.io/2017/02/02/Storage-Service-publish-once-distribute-everywhere.html</link><guid isPermaLink="true">https://tedbergeron.github.io/2017/02/02/Storage-Service-publish-once-distribute-everywhere.html</guid><category><![CDATA[JavaScript]]></category><category><![CDATA[ storage service]]></category><dc:creator><![CDATA[Ted Bergeron]]></dc:creator><pubDate>Thu, 02 Feb 2017 00:00:00 GMT</pubDate></item><item><title><![CDATA[Preserving Content]]></title><description><![CDATA[<div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
 <p>I attended the Scripting News meetup in Portland on Friday and got a chance to meet <a href="http://davewiner.com/">Dave Winer</a>.</p>
