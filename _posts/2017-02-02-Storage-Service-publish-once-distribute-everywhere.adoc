@@ -1,0 +1,50 @@
+= Storage Service: publish once, distribute everywhere
+
+You should be able to take your content with you when you leave Facebook, Twitter, etc. and share it in the new app-of-the-moment.
+
+Dave Winer has been on this kick about a "storage service" link:http://scripting.com/2017/01/05/itsTimeToThinkOfTheUsers.html[Break the logjam with a simple API] and link:http://scripting.com/2017/01/25/storageAndFirefox.html[Storage and Firefox].
+
+He says that once we have storage service API's for Dropbox, et al, that JavaScript apps will become a new web or at least a new way for us to publish blogs and social media.
+
+I really agree because this fits with the link:http://www.digitaltrends.com/web/ways-to-decentralize-the-web/[SoLiD and PODS] (Personal Online Data Stores) concepts of Tim Berners-Lee.
+
+* You own your content.
+* You publish your Tweet or blog post to your storage service.
+* You authorize Twitter or Medium to access your posts there.
+
+____
+This allows you to publish once and distribute everywhere.
+____
+
+When you get tired of Dropbox, you can move all your content over to Google Drive or whatever and all your posts and Tweets are still online.
+
+
+== JavaScript in the browser
+
+Static web apps work in GitHub and Dropbox where you host some HTML and use JavaScript to read/write content.
+I'm storing my content in JSON.
+
+Ideally the HTML and JavaScript would become an app as a browser plugin or extension. 
+//Even if the app just uploaded HTML and JavaScript to your Dropbox to make it a static web app.
+
+Since GitHub and Dropbox already have API's it seems like this would be pretty simple.
+So far I'm struggling because almost all code I find is based on hosting it on some web server.
+The API's all require someone with a developer mindset to get API keys and tokens.
+
+I still need to answer more questions about how an average user would hook up a JavaScript app to a storage service with just their username and password.
+
+== Continue the public discussion 
+
+I hope this continues the discussion to conceptualize where this could go.
+
+What kinds of applications do you imagine? Public apps like social networking, blogging, federated wiki. 
+Private apps for tracking your collections of books and movies, address book for contacts...
+
+Please blog about your concepts and Tweet about it.
+
+
+
+
+
+
+
