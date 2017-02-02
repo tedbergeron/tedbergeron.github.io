@@ -14,9 +14,9 @@ I really agree because this fits with the link:http://www.digitaltrends.com/web/
 * You publish your Tweet or blog post to your storage service.
 * You authorize Twitter or Medium to access your posts there.
 
-____
-This allows you to publish once and distribute everywhere.
-____
+
+TIP: This allows you to publish once and distribute everywhere.
+
 
 When you get tired of Dropbox, you can move all your content over to Google Drive or whatever and all your posts and Tweets are still online.
 
