@@ -1,5 +1,7 @@
 = Storage Service: publish once, distribute everywhere
 
+:hp-tags: JavaScript, storage service
+
 You should be able to take your content with you when you leave Facebook, Twitter, etc. and share it in the new app-of-the-moment.
 
 Dave Winer has been on this kick about a "storage service" link:http://scripting.com/2017/01/05/itsTimeToThinkOfTheUsers.html[Break the logjam with a simple API] and link:http://scripting.com/2017/01/25/storageAndFirefox.html[Storage and Firefox].
